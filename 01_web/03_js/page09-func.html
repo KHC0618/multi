@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="js/out2.js"></script>
+
+    <script>
+        function mul(x, y) {
+            alert("곱하기 기능 처리 : " + (x * y))
+        }
+
+        mul(1, 3)
+
+        minus(5, 2)
+
+        function check() {
+            alert("체크했습니다.")
+            go()
+        }
+
+        function fight() {
+            alert("파이팅")
+            move()
+        }
+
+    </script>
+</head>
+<body>
+    <button onclick="add(2, 1)"> 더하기 기능 처리 </button>
+    <button onclick="mul(1, 3)"> 곱하기 기능 처리 </button>
+    <button onclick="minus(5, 2)"> 빼기 기능 처리 </button>
+    <button onclick="check()"> 체크하고 이동 </button>
+    <button onclick="fight()"> 파이팅하고 move함수 사용 </button>
+</body>
+</html>

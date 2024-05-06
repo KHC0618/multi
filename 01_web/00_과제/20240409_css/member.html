@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../css/site.css">
+
+</head>
+
+<body>
+    <div id="total">
+        <div id="top">
+            <ul>
+                <li id="home">
+                    <a href="../bootstrap_main.html">부트스트랩 홈</a>
+                </li>
+                <li>
+                    <a href="main.html">메인 화면</a>
+                </li>
+                <li>
+                    <a href="member.html">회원가입</a>
+                </li>
+                <li>
+                    <a href="hobby.html">나의 취미</a>
+                </li>
+                <li>
+                    <a href="bbs.html">게시판</a>
+                </li>
+                <li>
+                    <a href="login.html">로그인</a>
+                </li>
+            </ul>
+        </div>
+        <div id="center">
+            <form action="member">
+                <h3>회원가입 화면</h3>
+                <table>
+                    <tr><td>ID</td><td><input type="text" name="id"></td></tr>
+                    <tr><td>PW</td><td><input type="text" name="pw"></td></tr>
+                    <tr><td>이름</td><td><input type="text" name="name"></td></tr>
+                </table>
+                성별 <input type="radio" id="male" name="gender" value="man" checked>
+                <label for="male">남자</label>
+                <input type="radio" id="female" name="gender" value="woman">
+                <label for="female">여자
+                </label>
+                <br>
+                취미 <input type="checkbox" id="run" name="hobby" value="run">
+                <label for="run">달리기</label>
+                <input type="checkbox" id="video" name="hobby" value="youbute" checked>
+                <label for="video">동영상보기</label>
+                <input type="checkbox" id="websurfing" name="hobby" value="internet">
+                <label for="websurfing">웹서핑</label>
+                <br>
+                전화번호 통신사
+                <select name="tel">
+                    <option value="etctele" selected>알뜰폰</option>
+                    <option value="ktelecom">KT</option>
+                    <option value="sktelecom">SKT</option>
+                    <option value="lgtelecom">LGT</option>
+                </select>
+                <input type="number" name="number" placeholder="-없이 숫자로 이어서쓰세요.">
+                <br>
+                생년월일 <input type="date"> <br>
+                가입한 시기 <input type="datetime-local">
+                <br>
+                가입한 주<input type="week" name="week">
+                <br>
+                하고 싶은 말
+                <textarea name="word" cols="30" rows="5" placeholder="100글자로 이내로  써주세요."></textarea>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

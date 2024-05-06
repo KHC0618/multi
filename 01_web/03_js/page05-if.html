@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let food = confirm("아침을 먹었나요?")
+        alert("입력받은 값은 : " + food) // true, false 논리형으로 받음.
+
+        if(food) {
+            alert("배가 부르시겠군요.")
+        } else {
+            alert("배가 고프시겠군요.")
+        }
+
+        let day = confirm("오늘은 주말인가요?")
+        
+        if(day) {
+            alert("놀러가자")
+        } else {
+            alert("공부하자")
+        }
+
+        let site = prompt("당신은 어떤 사이트를 많이 가나요?") // 네이버2
+
+        if(site == '네이버') {
+            console.log("초록색")
+        } else {
+            console.log("다른색")
+        }
+    </script>
+</body>
+</html>

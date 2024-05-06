@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let age = prompt('나이를 입력해주세요.') // 모든 입력의 값은 문자로 취급. 때문에 숫자로 연산 불가.
+        alert(age + 10)
+
+        // 그래서 문자를 숫자로 변환해야함.  
+        let age2 = parseInt(age)
+        let age3 = age2 + 1
+        let age4 = age2 + 2
+
+        alert('내년 나이는 : ' + age3)
+        alert('내후년 나이는 : ' + age4)
+
+    </script>
+</body>
+</html>

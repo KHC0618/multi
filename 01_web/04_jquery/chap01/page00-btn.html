@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+
+    <script>
+        $(function(){
+
+            alert("ok")
+
+            $('#b1').click(function(){
+                alert("b1 클릭됨.")
+            })
+
+            $('#b2').click(function(){
+                alert("b2 클릭됨.")
+            })
+
+        })
+
+        jQuery(document).ready(function(){
+            $('#b1').css("background", "yellow")
+        })
+
+        // $ << jQuery or jQuery(document).ready
+        $(document).ready(function(){
+            $('#b2').css("background", "red")
+        })
+    </script>
+</head>
+<body>
+    <button id = "b1">버튼1</button>
+    <button id = "b2">버튼2</button>
+</body>
+</html>

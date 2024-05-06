@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script>
+        $(function () {
+            $('#b1').click(function () {
+                $.ajax({
+                    url: "http://127.0.0.1:5500/04_jquery/chap02/tour.html",
+                    success: function (data) {
+                        alert('live서버 통신 성공 ' + data)
+                        $('#d1').html('응답받은 데이터는 ' + data)
+                    },
+                    error: function (error) {
+                        alert('live서버 통신 실패 ' + error)
+                    }
+                })
+            })
+
+            $('#b2').click(function () {
+                $.ajax({
+                    url: "http://127.0.0.1:5500/04_jquery/chap02/ok.html",
+                    success: function (data) {
+                        alert('live서버 통신 성공 ' + data)
+                        $('#d2').html('응답받은 데이터는 ' + data)
+                    },
+                    error: function (error) {
+                        alert('live서버 통신 실패 ' + error)
+                    }
+                })
+            })
+
+            $('#b3').click(function () {
+                $.ajax({
+                    url: "http://127.0.0.1:5500/04_jquery/chap02/weather.html",
+                    success: function (data) {
+                        alert('live서버 통신 성공 ' + data)
+                        $('#d3').html('응답받은 데이터는 ' + data)
+                    },
+                    error: function (error) {
+                        alert('live서버 통신 실패 ' + error)
+                    }
+                })
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <button id='b1'>내 서버 공공portal로 통신하기(tour)</button> <br>
+    <button id='b2'>내 서버 ok.html로 통신하기</button> <br>
+    <button id='b3'>내 서버 weather.html로 통신하기</button> <br>
+
+    <hr>
+    <div id="d1"></div>
+    <div id="d2"></div>
+    <div id="d3"></div>
+</body>
+
+</html>

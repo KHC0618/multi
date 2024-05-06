@@ -1,0 +1,81 @@
+div {
+    font-size: 15px;
+    font-weight: bold;
+    color: blue;
+}
+
+#total {
+    width: 100%;
+    background-color: lightcyan;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#total table {
+    margin: 0 auto;
+}
+
+#top {
+    height: 100px;
+    background-color: lime;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+#center {
+    height: 500px;
+    padding: 30px;
+}
+
+li {
+    list-style: none;
+    float: left;
+    padding: 15px;
+    width: 70px;
+    height: 20px;
+    border-radius: 50px;
+    /* background: yellow; */
+}
+
+li:nth-child(2n) {
+    background: orange;
+}
+
+li:nth-child(2n+1) {
+    background: yellow;
+}
+
+#top2 {
+    background-color: black;
+    color: yellow;
+    border-radius: 100px 10px;
+    width: 250px;
+    height: 100px;
+    position: fixed;
+    top: 5px;
+    right: 5px;
+
+    display: flex;
+    align-items: center; /*수직방향 정렬*/
+    justify-content: center; /*수평방향 정렬*/
+}
+
+@media(max-width: 768px) {
+    #total {
+        min-width: 600px;
+    }
+
+    #top, #center {
+        display: flex;
+        justify-content: left;
+    }
+
+    #top2 {
+        background-color: transparent;
+        color: black;
+        border-radius: 100px 10px;
+        position: fixed;
+        top: 50px;
+    }
+}

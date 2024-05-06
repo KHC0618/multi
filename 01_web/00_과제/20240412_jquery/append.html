@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+    <script>
+        $(function() {
+            $('#b1').click(function() {
+                $('#d1').append("<img src=../img/appendImg.jpg width=200 height 150> <br>")
+            })
+
+            $('#b2').click(function() {
+                let re1 = $('#re1').val()
+                $('#d1').append(re1 + "<br>")
+            })
+
+            $('#b3').click(function() {
+                let re2 = $('#re2').val()
+
+                $('#d1').append("<img src=../img/appendImg.jpg width=200 height 150>")
+                $('#d1').append(re2 + "<br>")
+            })
+        })
+    </script>
+</head>
+<body>
+    <button id="b1">이미지 추가</button><br>
+    댓글1: <input type="text" id="re1"> <button id="b2">댓글 추가</button><br>
+    댓글2: <input type="text" id="re2"> <button id="b3">이미지+댓글 추가</button><br>
+    <hr color="red">
+    <div id="d1"></div>
+</body>
+</html>

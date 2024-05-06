@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script type="text/javascript" src="../js/out2.js"></script>
+
+</head>
+
+<body>
+    <script>
+
+        console.log('apple' || 'banana');  // apple
+        console.log(false || 'banana');  //banana
+        console.log('apple' || false);  //apple
+
+        // 정리문제 1
+        for (let i = 0; i < 3; i++) {
+            document.write("@@@<br>")
+        }
+
+        // 정리문제 4
+        let question = confirm("당신은 자바 프로그래머인가요?")
+        if (question) {
+            alert("훌륭한 웹프로그래머시군요!")
+        } else {
+            alert("다른 언어를 사용하시는군요.")
+        }
+
+        // 정리문제 5
+        let price = prompt("커피의 가격은 얼마인가요? ")
+        let count = prompt("몇 잔 구매하시나요? ")
+
+        let priceInt = parseInt(price)
+        let countInt = parseInt(count)
+
+        let total = priceInt * countInt
+
+        if (total >= 15000) {
+            alert("총 " + total + "원이므로 할인해드릴게요.")
+        } else {
+            alert("총 " + total + "원이므로 정가로 내셔야해요.")
+        }
+
+        // 정리문제 6
+        let food = prompt("먹고 싶은 음식은? ")
+        let foodPrice = prompt("그 음식의 가격은? ")
+
+        let foodPriceInt = parseInt(foodPrice)
+
+        if (food == '커피' && foodPrice < 5000) {
+            alert("내가 살게요.")
+        } else {
+            alert("네가 사세요.")
+        }
+
+        // 정리문제 7
+        let time = prompt("지금은 오전인가요, 오후인가요? ")
+
+        if (time == '오전') {
+            for (let i = 0; i < 3; i++) {
+                document.write("굿모닝!<br>")
+            }
+        } else if (time == '오후') {
+            for (let i = 0; i < 5; i++) {
+                document.write("굿애프터눈!<br>")
+            }
+        } else {
+            for (let i = 0; i < 10; i++) {
+                document.write("굿나잇!<br>")
+            }
+        }
+
+
+        for (let i = 0; i < 1000; i++) {
+            document.write(i + " ")
+        }
+
+
+        for (let i = 100; i <= 200; i++) {
+            document.write(i + " ")
+        }
+
+
+    </script>
+    <br>
+    <button onclick="travel()">여행하다.</button>
+    <button onclick="rest()">쉬다.</button>
+    <br>
+    <button onclick="fight()">파이팅</button>
+    <button onclick="bye()">잘가</button>
+    <br>
+    <button onclick="go()">go 100</button>
+</body>
+
+</html>

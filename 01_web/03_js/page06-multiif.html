@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let site = prompt("어느 사이트로 자주 가나요?")
+
+        if(site == '네이버') {
+            location.href = "http://www.naver.com" // location.href("http://www.naver.com") location.href is not a function 에러 발생.
+        } else if (site == '다음') {
+            location.href = "http://www.daum.net"
+        } else if (site == '구글') {
+            location.href = "http://www.google.com"
+        } else {
+            alert("존재하지 않는 사이트입니다.")
+        }
+    </script>
+    
+</body>
+</html>

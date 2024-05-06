@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Div 추가 및 삭제</title>
+<style>
+    #area1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .box {
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+        margin-right: 10px;
+    }
+
+    .red {
+        background-color: red;
+    }
+
+    .yellow {
+        background-color: yellow;
+    }
+</style>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div id="area1"></div>
+    <button id="addButton">추가하기</button>
+    <button id="removeButton">삭제하기</button>
+
+    <script>
+        $(document).ready(function() {
+            let addRed = true;
+
+            $("#addButton").click(function() {
+                const $area1 = $("#area1");
+                const $div = $("<div>").addClass("box");
+                if (addRed) {
+                    $div.addClass("red");
+                } else {
+                    $div.addClass("yellow");
+                }
+                $area1.append($div);
+                addRed = !addRed;
+            });
+
+            $("#removeButton").click(function() {
+                $("#area1").children().last().remove();
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+-- CONNECTION: url=jdbc:oracle:thin:@//localhost:1521/XE
+-- New script in localhost.
+-- Connection Type: dev 
+-- Url: jdbc:oracle:thin:@//localhost:1521/XE
+-- workspace : C:\workspace\multi\03_db
+-- Date: 2024. 5. 3.
+-- Time: 오후 1:54:50
+
+-- 오라클 계정생성 system 으로 연결후 생성하고 권한주기 
+create user scott identified by tiger;
+
+grant connect, resource, dba TO scott;
+
+-- 계정삭제 
+-- CASCADE해주어야 계정과 관련된 데이터가 모두 삭제됨.
+-- apple 계정 연결 해제하고 삭제하기(localhost5(였음))
+--drop USER apple CASCADE;
+
+-- 사용자계정.테이블명
+/*주석*/
+SELECT * FROM hr.EMPLOYEES;
+
+-- 계정 수정
+ALTER USER hr IDENTIFIED BY hr;
+
+-- 계정 락 풀기 
+ALTER USER hr account unlock;
+
+CREATE USER apple IDENTIFIED BY 1234;
+
+GRANT CONNECT TO apple;
+
