@@ -11,6 +11,18 @@
 		<column name="Partitioned" visible="true" order="4" width="100"/>
 		<column name="Description" visible="true" order="5" width="100"/>
 	</item>
+	<item id="NodeList/MySQLTableColumn">
+		<column name="컬럼명" visible="true" order="0" width="100"/>
+		<column name="#" visible="true" order="1" width="100"/>
+		<column name="Data Type" visible="true" order="2" width="100"/>
+		<column name="Not Null" visible="true" order="3" width="100"/>
+		<column name="Auto Increment" visible="true" order="4" width="100"/>
+		<column name="Key" visible="true" order="5" width="100"/>
+		<column name="디폴트" visible="true" order="6" width="100"/>
+		<column name="Extra" visible="true" order="7" width="100"/>
+		<column name="Expression" visible="true" order="8" width="100"/>
+		<column name="Comment" visible="true" order="9" width="100"/>
+	</item>
 	<item id="NodeList/OraclePrivRole">
 		<column name="Role" visible="true" order="0" width="172"/>
 		<column name="Admin Option" visible="true" order="1" width="100"/>
@@ -37,6 +49,21 @@
 		<column name="디폴트" visible="true" order="5" width="100"/>
 		<column name="Comment" visible="true" order="6" width="100"/>
 	</item>
+	<item id="NodeList/OracleTableConstraint">
+		<column name="이름" visible="true" order="0" width="100"/>
+		<column name="소유자" visible="true" order="1" width="100"/>
+		<column name="Type" visible="true" order="2" width="100"/>
+		<column name="Condition" visible="true" order="3" width="100"/>
+		<column name="Status" visible="true" order="4" width="100"/>
+	</item>
+	<item id="NodeList/OracleTableConstraint/OracleTableConstraintColumn">
+		<column name="이름" visible="true" order="0" width="139"/>
+		<column name="Column" visible="true" order="1" width="100"/>
+		<column name="소유자" visible="true" order="2" width="100"/>
+		<column name="Type" visible="true" order="3" width="100"/>
+		<column name="Condition" visible="true" order="4" width="117"/>
+		<column name="Status" visible="true" order="5" width="100"/>
+	</item>
 	<item id="NodeList/OracleUser">
 		<column name="User name" visible="true" order="0" width="130"/>
 		<column name="Status" visible="true" order="1" width="100"/>
@@ -52,9 +79,9 @@
 		<column name="Name" visible="true" order="0" width="130"/>
 	</item>
 	<item id="Suggestion/NodeList/OracleTableColumn">
-		<column name="컬럼명" visible="true" order="0" width="68"/>
+		<column name="컬럼명" visible="true" order="0" width="62"/>
 		<column name="#" visible="true" order="1" width="29"/>
-		<column name="Type" visible="true" order="2" width="96"/>
+		<column name="Type" visible="true" order="2" width="102"/>
 		<column name="Type Mod" visible="false" order="3" width="100"/>
 		<column name="Not Null" visible="true" order="3" width="61"/>
 		<column name="디폴트" visible="true" order="4" width="52"/>
