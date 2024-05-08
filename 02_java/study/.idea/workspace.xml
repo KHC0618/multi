@@ -5,17 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa3e564b-751b-4661-9267-05d38ef0d88a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../03_db/jdbc/jdbc_basic/.idea/libraries/mysql_connector_j_8_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_db/jdbc/jdbc_basic/src/com/multi/jdbc/a_com/DBConnectMySQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../study/src/miniProject/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../study/src/miniProject/Run.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../03_db/.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_db/.metadata/.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../03_db/.metadata/.plugins/org.eclipse.core.resources/.projects/General/.indexes/18/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_db/.metadata/.plugins/org.eclipse.core.resources/.projects/General/.indexes/18/history.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../03_db/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_db/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03_db/.metadata/.plugins/org.eclipse.core.resources/.projects/General/.markers.snap" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_db/.metadata/.plugins/org.eclipse.core.resources/.projects/General/.markers.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03_db/.metadata/.plugins/org.eclipse.core.resources/.projects/General/.syncinfo.snap" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_db/.metadata/.plugins/org.eclipse.core.resources/.projects/General/.syncinfo.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03_db/.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_db/.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03_db/.metadata/.plugins/org.eclipse.core.resources/5.snap" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_db/.metadata/.plugins/org.eclipse.core.resources/5.snap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../03_db/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_db/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../03_db/.metadata/.plugins/org.jkiss.dbeaver.core/column_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_db/.metadata/.plugins/org.jkiss.dbeaver.core/column_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../03_db/.metadata/dbeaver-debug-1714703153847.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../03_db/.metadata/dbeaver-debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_db/.metadata/dbeaver-debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../03_db/.metadata/dbeaver-workspace.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_db/.metadata/dbeaver-workspace.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../03_db/General/.dbeaver/.project-metadata.json.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_db/General/.dbeaver/.project-metadata.json.bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../03_db/General/.dbeaver/project-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_db/General/.dbeaver/project-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03_db/General/Scripts/day02_mysql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_db/General/Scripts/day02_mysql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03_db/jdbc/jdbc_basic/jdbc_basic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_db/jdbc/jdbc_basic/jdbc_basic.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03_db/jdbc/jdbc_basic/src/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../study/src/timeReward/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../study/src/timeReward/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../study/src/timeReward/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../study/src/timeReward/Run.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../study/src/timeReward/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../study/src/timeReward/View.java" afterDir="false" />

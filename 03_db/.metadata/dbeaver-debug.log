@@ -1675,3 +1675,20 @@ java.lang.NullPointerException: Cannot invoke "org.jkiss.dbeaver.model.stm.STMTr
 	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:81)
 	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-05-07 15:35:43.045 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2024-05-07 16:16:35.612 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2024-05-07 16:52:56.027 - End idle 2 transactions for oracle_thin-18f3c210cad-503504f4b1ee1cc3
+2024-05-07 16:53:05.232 - End idle 2 transactions for mysql8-18f3c45f4ce-7b783b169c9c510b
+2024-05-07 20:55:01.067 - Execution context closed (localhost 2, 10)
+2024-05-07 20:55:01.070 - Execution context closed (localhost 4, 3)
+2024-05-07 20:55:01.070 - Execution context closed (localhost, 0)
+2024-05-07 20:55:01.083 - Execution context closed (localhost 4, 4)
+2024-05-07 20:55:01.083 - Execution context closed (localhost, 1)
+2024-05-07 20:55:01.083 - Disconnected (oracle_thin-18f3cdc10e1-64a12f65c85d94d0)
+2024-05-07 20:55:01.083 - Execution context closed (localhost 2, 11)
+2024-05-07 20:55:01.094 - Execution context closed (localhost, 2)
+2024-05-07 20:55:01.096 - Execution context closed (localhost 2, 12)
+2024-05-07 20:55:01.096 - Disconnected (mysql8-18f3c45f4ce-7b783b169c9c510b)
+2024-05-07 20:55:01.104 - Execution context closed (localhost, 5)
+2024-05-07 20:55:01.104 - Disconnected (oracle_thin-18f3c210cad-503504f4b1ee1cc3)
+2024-05-08 08:34:49.500 - System suspend detected! Reinitialize all remote connections.

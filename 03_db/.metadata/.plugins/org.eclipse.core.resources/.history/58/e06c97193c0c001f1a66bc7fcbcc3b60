@@ -95,79 +95,17 @@ SHOW GRANTS FOR 'hr'@'%';	-- GRANT USAGE ON *.* TO `hr`@`%` : 접속할 수 있�
 DROP USER 'hr'@'%';
 -- DROP USER 'hr'@'localhost';
 
-USE scott;
-
-CREATE TABLE BONUS (
-ENAME VARCHAR(10),
-JOB VARCHAR(9),
-SAL INT(11),
-COMM INT(11)
-);
--- mysql 8.0.17 버전부터 int 타입에 길이 설정하는 건 더 이상 지원하지 않기로 하고 향후 버전부터는 제거될 기능 중 하나라서 경고
--- Integer display width is deprecated and will be removed in a future release.
-
-CREATE TABLE DEPT
-(
-DEPTNO INT,
-DNAME VARCHAR(14),
-LOC VARCHAR(13)
-);
-
-CREATE TABLE EMP
-(
-EMPNO INT,
-ENAME VARCHAR(10),
-JOB VARCHAR(9),
-MGR INT,
-HIREDATE DATE,
-SAL INT,
-COMM DECIMAL(7,2),
-DEPTNO INT
-);
-
-CREATE TABLE SALGRADE
-(
-GRADE INT,
-LOSAL INT,
-HISAL INT
-);
-
-ALTER TABLE DEPT ADD (
-CONSTRAINT PK_DEPT
-PRIMARY KEY
-(DEPTNO));
-
- 
-
-ALTER TABLE EMP ADD (
-CONSTRAINT PK_EMP
-PRIMARY KEY
-(EMPNO));
-
- 
-ALTER TABLE EMP ADD (
-CONSTRAINT FK_DEPTNO
-FOREIGN KEY (DEPTNO)
-REFERENCES DEPT (DEPTNO)
-);
 
 
--- --------------------------
-
-USE scott;
-
-CREATE TABLE MEMBER (
-	id int PRIMARY KEY,
-	pw varchar(10),
-	name varchar(10),
-	tel varchar(10),
-	create_date timestamp
-);
-
-SELECT * FROM MEMBER;
 
 
-COMMIT;
+
+
+
+
+
+
+
 
 
 

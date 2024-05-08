@@ -63,7 +63,7 @@ CREATE DATABASE scott;
 -- CREATE USER '사용자아이디'@'접속허용IP' IDENTIFIED BY '비밀번호';
 -- GRANT ALL PRIVILEGES ON 권한허용DB명.* TO '사용자아이디' @ '접속허용IP';
 -- CREATE USER 'scott'@'localhost' IDENTIFIED BY 'tiger';
-CREATE USER 'scott'@'%' identified BY 'tiger';
+CREATE USER 'scott'@'localhost' identified BY 'tiger';
 
 -- 모든 DATABASE 및 모든 TABLE에 대한 접근 허용
 -- GRANT ALL PRIVILEGES ON *.* TO '사용자아이디'@'접속허용IP';
@@ -71,7 +71,7 @@ CREATE USER 'scott'@'%' identified BY 'tiger';
 
 -- 사용자에게 모든 데이터베이스, 모든 테이블에 대한 권한을 주면서 유저가 생성
 -- GRANT ALL PRIVILEGES ON *.* '사용자아이디'@'접속허용IP' IDENTIFIED BY '비밀번호';
-GRANT ALL PRIVILEGES ON *.* TO 'scott'@'%';
+GRANT ALL PRIVILEGES ON *.* TO 'scott'@'localhost';
 
 CREATE USER 'hr'@'%' identified BY 'hr';
 GRANT ALL PRIVILEGES ON *.* TO 'hr'@'%';
@@ -164,10 +164,8 @@ CREATE TABLE MEMBER (
 	create_date timestamp
 );
 
-SELECT * FROM MEMBER;
 
 
-COMMIT;
 
 
 

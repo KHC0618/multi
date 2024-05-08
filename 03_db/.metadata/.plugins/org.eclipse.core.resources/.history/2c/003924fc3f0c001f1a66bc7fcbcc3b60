@@ -164,10 +164,8 @@ CREATE TABLE MEMBER (
 	create_date timestamp
 );
 
-SELECT * FROM MEMBER;
 
 
-COMMIT;
 
 
 

@@ -41,7 +41,10 @@
 					"enabledTLSProtocols": "TLSv1,TLSv1.1,TLSv1.2,TLSv1.3",
 					"allowPublicKeyRetrieval": "true"
 				},
-				"auth-model": "native"
+				"auth-model": "native",
+				"bootstrap": {
+					"txnIsolation": 2
+				}
 			}
 		},
 		"oracle_thin-18f3cd722e0-4ba825d1a2bde48a": {
