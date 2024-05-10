@@ -335,4 +335,70 @@ public class MemberDao {
 
         return rsDto;
     }
+
+    public void update(MemberDto memberDto) {
+        Connection con = null;
+        PreparedStatement ps = null;
+
+        try {
+            Class.forName("oracle.jdbc.driver.OracleDriver");
+            System.out.println("1. 드라이버 설정 성공..");
+
+            String url = "jdbc:oracle:thin:@localhost:1521:xe";
+            String user = "scott";
+            String password = "tiger";
+            con = DriverManager.getConnection(url, user, password);
+            System.out.println("2. db연결 성공." + con);
+
+            // 오토커밋을 false로 설정
+            con.setAutoCommit(false);
+            System.out.println("3. 오토 커밋 설정 비활성화.");
+
+            // sql문 만들기, prepareStatement 준비된 문장 자동으로 ; 들어가니까 따로 안적어줘도 됨
+            String sql = "UPDATE MEMBER SET TEL = ? WHERE ID = ?";
+            ps = con.prepareStatement(sql);
+            // ? 에 입력할 순서대로 매핑시키기
+            ps.setString(1, memberDto.getTel());
+            ps.setInt(2, memberDto.getId());
+            System.out.println("4. sql문 객체 생성 성공.");
+            int result = ps.executeUpdate();    // ps. 객체 실행, 쿼리 실행, 쿼리 실행 후 반환값 받아주기
+
+
+            System.out.println("5. sql문 전송 성공, 결과1 >> " + result);
+
+            // 트랜잭션 커밋
+            if (result >= 1) {
+                System.out.println("데이터 입력 완료");
+                con.commit();
+                System.out.println("6. 트랜잭션 커밋 완료.");
+
+            }
+            // Query가 제대로 실행되지 않은 경우
+            else {
+                System.out.println("데이터 입력 실패");
+                con.rollback();
+            }
+
+        } catch (ClassNotFoundException | SQLException e) {
+            e.printStackTrace();
+
+            if (con != null) {
+                try {
+                    con.rollback(); // 예외 발생 시 롤백
+                } catch (SQLException ex) {
+                    ex.printStackTrace();
+                }
+                System.out.println("트랜잭션 롤백.");
+            }
+
+        } finally {
+            try {
+                ps.close(); // 먼저닫기
+                con.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+                e.printStackTrace();
+            }
+        }
+    }
 }

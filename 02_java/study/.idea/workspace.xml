@@ -5,17 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa3e564b-751b-4661-9267-05d38ef0d88a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../03_db/jdbc/jdbc_basic/.idea/libraries/ojdbc6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../03_db/jdbc/jdbc_basic/src/com/multi/jdbc/a_com/DBConnectOracle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../03_db/jdbc/jdbc_basic/src/com/multi/jdbc/b_basic/model/dao/MemberDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../03_db/jdbc/jdbc_basic/src/com/multi/jdbc/b_basic/model/dto/MemberDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../03_db/jdbc/jdbc_basic/src/com/multi/jdbc/b_basic/view/MemberUITest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../03_db/jdbc/jdbc_basic/src/com/multi/jdbc/b_basic/view/MemberUITest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../03_db/jdbc/jdbc_basic/src/com/multi/jdbc/b_basic/view/MemberUITest3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../03_db/jdbc/jdbc_basic/src/com/multi/jdbc/b_basic/view/MemberUITest4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../03_db/jdbc/jdbc_basic/src/com/multi/jdbc/b_basic/view/MemberUITest5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../study/src/miniProject/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../study/src/miniProject/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_db/jdbc/jdbc_basic/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_db/jdbc/jdbc_basic/src/com/multi/jdbc/a_com/DBCP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_db/jdbc/jdbc_basic/src/com/multi/jdbc/a_com/DBCPUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_db/jdbc/jdbc_basic/src/com/multi/jdbc/b_basic/model/dao/BoardDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_db/jdbc/jdbc_basic/src/com/multi/jdbc/b_basic/model/dto/BoardDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_db/jdbc/jdbc_basic/src/com/multi/jdbc/b_basic/view/BoardUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_db/jdbc/jdbc_basic/src/com/multi/jdbc/b_basic/view/MemberUITest6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_db/jdbc/jdbc_basic/src/com/multi/jdbc/b_basic/view/MemberUITest7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../03_db/.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_db/.metadata/.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../03_db/.metadata/.plugins/org.eclipse.core.resources/.projects/General/.indexes/18/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_db/.metadata/.plugins/org.eclipse.core.resources/.projects/General/.indexes/18/history.index" afterDir="false" />
@@ -24,11 +22,12 @@
       <change beforePath="$PROJECT_DIR$/../../03_db/.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_db/.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../03_db/.metadata/.plugins/org.eclipse.core.resources/5.snap" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_db/.metadata/.plugins/org.eclipse.core.resources/5.snap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../03_db/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_db/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03_db/.metadata/.plugins/org.jkiss.dbeaver.core/column_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_db/.metadata/.plugins/org.jkiss.dbeaver.core/column_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../03_db/General/.dbeaver/.project-metadata.json.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_db/General/.dbeaver/.project-metadata.json.bak" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../03_db/General/.dbeaver/project-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_db/General/.dbeaver/project-metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../study/src/timeReward/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../study/src/timeReward/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../study/src/timeReward/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../study/src/timeReward/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../study/src/timeReward/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../study/src/timeReward/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03_db/General/Scripts/Script-7.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03_db/General/Scripts/day03_oracle_hr.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_db/General/Scripts/day03_oracle_hr.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03_db/jdbc/jdbc_basic/src/com/multi/jdbc/b_basic/model/dao/MemberDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_db/jdbc/jdbc_basic/src/com/multi/jdbc/b_basic/model/dao/MemberDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,20 +51,24 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2g5XZpTuBEvcRIZR3obURsCA8s6" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Run.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UserSessionTracker.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/workspace/multi/02_java/study/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Run.executor": "Run",
+    "Application.UserSessionTracker.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/workspace/multi/02_java/study/src/Main.java",
+    "settings.editor.selected.configurable": "advanced.settings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\workspace\study\img" />

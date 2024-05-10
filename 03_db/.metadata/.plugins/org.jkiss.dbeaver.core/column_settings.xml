@@ -31,6 +31,16 @@
 	<item id="NodeList/OracleSchema">
 		<column name="Name" visible="true" order="0" width="130"/>
 	</item>
+	<item id="NodeList/OracleSequence">
+		<column name="Sequence Name" visible="true" order="0" width="102"/>
+		<column name="Value" visible="true" order="1" width="100"/>
+		<column name="Min Value" visible="true" order="2" width="100"/>
+		<column name="Max Value" visible="true" order="3" width="100"/>
+		<column name="Increment" visible="true" order="4" width="100"/>
+		<column name="Cache" visible="true" order="5" width="100"/>
+		<column name="Cycle" visible="true" order="6" width="100"/>
+		<column name="Ordered" visible="true" order="7" width="100"/>
+	</item>
 	<item id="NodeList/OracleTable">
 		<column name="Name" visible="true" order="0" width="106"/>
 		<column name="Partitioned" visible="true" order="1" width="100"/>
@@ -91,13 +101,13 @@
 		<column name="Comment" visible="true" order="9" width="100"/>
 	</item>
 	<item id="Suggestion/NodeList/OracleTableColumn">
-		<column name="컬럼명" visible="true" order="0" width="62"/>
-		<column name="#" visible="true" order="1" width="29"/>
-		<column name="Type" visible="true" order="2" width="102"/>
+		<column name="컬럼명" visible="true" order="0" width="78"/>
+		<column name="#" visible="true" order="1" width="26"/>
+		<column name="Type" visible="true" order="2" width="99"/>
 		<column name="Type Mod" visible="false" order="3" width="100"/>
-		<column name="Not Null" visible="true" order="3" width="61"/>
-		<column name="디폴트" visible="true" order="4" width="52"/>
-		<column name="Comment" visible="true" order="5" width="70"/>
+		<column name="Not Null" visible="true" order="3" width="58"/>
+		<column name="디폴트" visible="true" order="4" width="49"/>
+		<column name="Comment" visible="true" order="5" width="67"/>
 	</item>
 	<item id="scriptSelectorViewer">
 		<column name="Script" visible="true" order="0" width="190"/>
