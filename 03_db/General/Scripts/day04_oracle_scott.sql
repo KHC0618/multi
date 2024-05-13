@@ -1,4 +1,5 @@
 -- CONNECTION: url=jdbc:oracle:thin:@//localhost:1521/XE
+
 -- New script in localhost 4.
 -- Connection Type: dev 
 -- Url: jdbc:oracle:thin:@//localhost:1521/XE
@@ -513,13 +514,42 @@ CREATE SEQUENCE SEQ_EMPID --SEQ_EMPID 시퀀스 객체 생성
 -- CURRVAL : 현재값을 반환 -- 현재값을 생성한후에 바로 조회하면 조회가 안되고 에러발생 
 -- NEXTVAL : 현재 시퀀스 값의 다음값을 반환
   
-SELECT SEQ_EMPID.CURRVAL FROM DUAL; -- 에러
-
+-- SELECT SEQ_EMPID.CURRVAL FROM DUAL; -- 에러
+-- CURRVAL사용시 주의점 : 생성한후에는  시퀀스의 시작값이 없으므로 NEXTVAL 을 무조건 1번 실행한후에 CURRVAL 실행
 SELECT SEQ_EMPID.NEXTVAL FROM DUAL;
+SELECT SEQ_EMPID.CURRVAL FROM DUAL;
+SELECT SEQ_EMPID.NEXTVAL FROM DUAL;
+SELECT SEQ_EMPID.NEXTVAL FROM DUAL;
+--SELECT SEQ_EMPID.NEXTVAL FROM DUAL; -- SQL Error [8004] [72000]: ORA-08004: sequence SEQ_EMPID.NEXTVAL exceeds MAXVALUE and cannot be instantiated
+-- MAXVALUE 넘어가서 에러 발생
 
+SELECT * FROM USER_SEQUENCES;
 
+--시퀀스 변경 
+-- START WITH  는 변경불가능 - 변경하고자한다면 DROP 으로 삭제후 다시 생성해야함 
+ALTER SEQUENCE SEQ_EMPID
+INCREMENT BY 10          
+MAXVALUE 400             
+NOCYCLE                 
+NOCACHE;
 
+DROP SEQUENCE SEQ_EMPID;
 
+CREATE SEQUENCE BBS_ID_SEQ   -- 시퀀스 객체 생성
+START WITH 1            -- 시작번호는 1부터
+INCREMENT BY 1          -- 1씩 증가 
+MAXVALUE 100            -- 최대100까지
+NOCYCLE                 -- 100이후 에러발생
+NOCACHE;                -- 캐쉬사용안함
 
+CREATE TABLE BBS7
+AS
+SELECT * FROM BBS5 WHERE 1 = 0;
 
+SELECT * FROM BBS7;
+
+INSERT INTO BBS7
+VALUES (BBS_ID_SEQ.NEXTVAL, 'HAPPY', '아 행복하다', 1);
+
+DROP SEQUENCE BBS_ID_SEQ;
 
