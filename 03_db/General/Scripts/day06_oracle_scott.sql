@@ -1,6 +1,10 @@
 -- CONNECTION: url=jdbc:oracle:thin:@//localhost:1521/XE
 
 
+
+
+
+
 -- New script in localhost 4.
 -- Connection Type: dev 
 -- Url: jdbc:oracle:thin:@//localhost:1521/XE
@@ -293,9 +297,171 @@ SELECT *
 FROM EMP A, DEPT B
 WHERE A.DEPTNO (+) = B.DEPTNO ;
 
+--FULL OUTER JOIN
+-- ANSI표준
+SELECT
+    ENAME, DNAME 
+FROM EMP A
+FULL JOIN DEPT B ON A.DEPTNO  = B.DEPTNO;
+-- 오라클 전용구문
+-- 오라클 전용구문으로는 FULL OUTER JOIN 을 할수 없다 -- 에러 
 
+--SELECT
+--    ENAME
+--    , DNAME
+--FROM EMP A
+--    ,DEPT B
+--WHERE A.DEPTNO(+) = B.DEPTNO(+);
+
+--CROSS JOIN : 카테이션 곱이라고도 한다. 
+--             조인이 되는 테이블의 각행들이 모두 매핑된 데이터가 검색되는 방법 (곱집합)
+
+SELECT *
+FROM EMP A;
+
+SELECT *
+FROM DEPT B;
+
+SELECT
+    ENAME, DNAME 
+FROM EMP A
+CROSS JOIN DEPT B;
+
+SELECT 
+	ENAME, DNAME
+FROM EMP, DEPT ;
+
+SELECT * FROM MEMBER;
+
+SELECT * FROM BBS7 ;
+
+INSERT INTO BBS7 VALUES (1, 'apple', 'apple', 1);
+INSERT INTO BBS7 VALUES (2, 'apple', 'sana', 2);
+INSERT INTO BBS7 VALUES (3, 'apple', 'lisa', 1);
+INSERT INTO BBS7 VALUES (4, 'apple', 'park', 2);
+
+-- 게시글 쓴 사람의 정보
+SELECT A.*, B.NAME, B.TEL 
+FROM BBS7 A
+LEFT JOIN MEMBER B ON A.WRITER = B.ID ;
+
+SELECT *
+FROM MEMBER A
+LEFT JOIN BBS7 B ON A.ID = B.WRITER
+ORDER BY 1;
+
+-- 모든 회원이 작성한 글의 정보 / 회원 기준
+SELECT *
+FROM MEMBER A
+LEFT JOIN BBS7 B ON A.ID = B.WRITER
+ORDER BY 1, B.NO DESC;
+
+-- 글을 기준으로 쓴 사람의 정보를 알고자할때
+SELECT *
+FROM MEMBER A
+RIGHT JOIN BBS7 B ON A.ID = B.WRITER
+ORDER BY 1, B.NO DESC;
+
+CREATE TABLE COMPANY (
+	ID VARCHAR2(200) PRIMARY KEY,
+	NAME VARCHAR2(200),
+	ADDR VARCHAR2(200),
+	TEL VARCHAR2(200)
+);
+
+INSERT INTO COMPANY VALUES ('c100', 'GOOD', 'SEOUL', '011');
+
+INSERT INTO COMPANY VALUES ('c200', 'JOA', 'BUSAN', '012');
+
+INSERT INTO COMPANY VALUES ('c300', 'MARIA', 'ULSAN', '013');
+
+INSERT INTO COMPANY VALUES ('c400', 'MY', 'KWANGJU', '014');
 
 COMMIT;
+
+SELECT * FROM COMPANY;
+SELECT * FROM PRODUCT;
+
+-- 모든 상품의 제품 이름, 제품 가격, 모든 회사 정보 출력
+
+SELECT A.NAME , A.PRICE, B.*
+FROM PRODUCT A
+LEFT JOIN COMPANY B ON A.COMPANY = B.ID;
+
+UPDATE PRODUCT SET content = 'soldout' WHERE id =109;
+
+-- 품절 인 제품의 제품이름, 제품가격, 모든 회사 정보 출력
+SELECT A.NAME, A.PRICE, A.CONTENT, B.*
+FROM PRODUCT A
+LEFT JOIN COMPANY B ON A.COMPANY = B.ID
+WHERE A.CONTENT = 'soldout';
+
+-- 각 회사의제품 정보 품절상품 제외
+SELECT A.NAME, A.PRICE, A.CONTENT, B.NAME
+FROM PRODUCT A
+RIGHT JOIN COMPANY B ON A.COMPANY = B.ID
+WHERE A.COMPANY != 'soldout';
+
+--NON EQUAL JOIN(NON EQU JOIN)
+--: 지정한 컬럼의 값이 일치하는 경우가 아닌 , 값의 범위에 포함하는 행들을 연결 하는 방식 
+--ANSI 표준
+SELECT 
+    A.ENAME
+    , A.SAL
+    , B.GRADE  SAL_LEVEL
+FROM EMP A
+    JOIN SALGRADE B ON A.SAL BETWEEN B.LOSAL AND B.HISAL;
+ -- 오라클 전용구문
+SELECT 
+    A.ENAME
+    , A.SAL
+    , B.GRADE  SAL_LEVEL
+FROM EMP A
+    , SALGRADE B
+WHERE A.SAL BETWEEN B.LOSAL AND B.HISAL;
+
+-- SELF JOIN : 같은 테이블을 조인하는 경우 자기 자신과 조인을 맺는것
+-- 동일한 테이블내에서 원하는 정보를 한번에 가져올수 없을 때 사용 
+SELECT 
+*
+FROM EMP A;
+SELECT 
+    A.EMPNO
+    , A.ENAME 사원이름
+    , A.DEPTNO
+    , A.MGR
+    , B.ENAME 관리자이름
+FROM EMP A
+    , EMP B
+WHERE A.MGR = B.EMPNO;
+
+-- 다중조인 : N 개의 테이블을 조회할때 사용 
+-- ANSI표준
+-- 순서중요 
+SELECT
+     A.EMPNO
+    , A.ENAME   
+    , E.DNAME 
+    , C.GRADE  SAL_LEVEL
+    , A.MGR		MGR_CODE
+    , B.ENAME MGR_NAME
+    , D.GRADE MGR_SAL_LEVEL
+    , F.DNAME MGR_DEPT
+FROM EMP A
+JOIN EMP B ON A.MGR = B.EMPNO
+LEFT JOIN SALGRADE C ON A.SAL BETWEEN C.LOSAL AND C.HISAL
+LEFT JOIN SALGRADE D ON B.SAL BETWEEN D.LOSAL AND D.HISAL
+LEFT JOIN DEPT E ON A.DEPTNO = E.DEPTNO
+LEFT JOIN DEPT F ON B.DEPTNO = F.DEPTNO;
+
+
+
+
+
+
+
+
+
 
 
 

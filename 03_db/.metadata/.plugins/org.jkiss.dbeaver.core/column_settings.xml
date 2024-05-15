@@ -82,6 +82,10 @@
 		<column name="Column" visible="true" order="1" width="100"/>
 		<column name="Reference Column" visible="true" order="2" width="113"/>
 	</item>
+	<item id="NodeList/OracleTriggerColumn">
+		<column name="Name" visible="true" order="0" width="116"/>
+		<column name="Column" visible="true" order="1" width="104"/>
+	</item>
 	<item id="NodeList/OracleUser">
 		<column name="User name" visible="true" order="0" width="130"/>
 		<column name="Status" visible="true" order="1" width="100"/>
@@ -109,7 +113,7 @@
 		<column name="Comment" visible="true" order="3" width="100"/>
 	</item>
 	<item id="Suggestion/NodeList/OracleTableColumn">
-		<column name="컬럼명" visible="true" order="0" width="79"/>
+		<column name="컬럼명" visible="true" order="0" width="126"/>
 		<column name="#" visible="true" order="1" width="27"/>
 		<column name="Type" visible="true" order="2" width="94"/>
 		<column name="Type Mod" visible="false" order="3" width="100"/>

@@ -1,12 +1,13 @@
 package com.multi.jdbc.member.service;
 
+import com.multi.jdbc.common.exception.MemberException;
 import com.multi.jdbc.member.model.dao.MemberDao;
 import com.multi.jdbc.member.model.dto.Member;
 
 import java.sql.Connection;
 import java.util.ArrayList;
 
-import static com.multi.jdbc.common.JDBCTemplate.getConnection;
+import static com.multi.jdbc.common.JDBCTemplate.*;
 /* Service 클래스에서 메소드 작성 방법
  * 1) Controller로 부터 인자를 전달받음
  * 2) Connection 객체 생성
@@ -21,11 +22,53 @@ public class MemberService {
         memberDao = new MemberDao();
     }
 
-    public ArrayList<Member> selectAll() {
+    public ArrayList<Member> selectAll() throws MemberException {
 
         Connection conn = getConnection();
         ArrayList<Member> list = memberDao.selectAll(conn);
 
         return list;
+    }
+
+    public Member selectOne(String s) throws MemberException {
+        Connection conn = getConnection();
+
+        Member member = memberDao.selectOne(conn, s);
+
+        return member;
+    }
+
+    public int insertMember(Member member) throws MemberException {
+        Connection conn = getConnection();
+        int result = memberDao.insertMember(conn, member);
+
+        if (result > 0) commit(conn);
+        else rollback(conn);
+
+        return result;
+    }
+
+    public int updateMember(Member member) throws MemberException {
+        Connection conn = getConnection();
+        int result = memberDao.updateMember(conn, member);
+
+        if (result > 0) commit(conn);
+        else rollback(conn);
+
+        return result;
+    }
+
+    public int deleteMember(String memberId) throws MemberException {
+        Connection conn = getConnection();
+        int result = memberDao.deleteMember(conn, memberId);
+
+        if (result > 0) commit(conn);
+        else rollback(conn);
+
+        return result;
+    }
+
+    public void exitProgram() {
+        close(getConnection());
     }
 }

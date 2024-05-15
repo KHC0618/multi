@@ -109,7 +109,7 @@ REVOKE resource FROM apple;
 DROP USER apple CASCADE;
 
 
-
+GRANT CREATE VIEW TO HR;
 
 
 

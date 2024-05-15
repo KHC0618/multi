@@ -18,7 +18,7 @@ public class MemberList {
     private  String header[] = {"아이디", "패스워드", "이름", "전화번호"};
     private  JPanel panel;
 
-    public  void selectList() {
+    public void selectList() {
         JFrame f = new JFrame();
         f.setSize(528, 700);
 
@@ -70,7 +70,7 @@ public class MemberList {
         f.setVisible(true);
     }
 
-    public  void setListTable() {
+    public void setListTable() {
 
 
         MemberDao dao = new MemberDao();
