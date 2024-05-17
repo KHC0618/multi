@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Context docBase="C:/workspace/multi/04_servletjsp/itj/jsp01/src/main/webapp">
+  <Resources cacheMaxSize="10240">
+    <PostResources base="C:/Users/PC/.m2/repository/javax/servlet/jsp/jsp-api/2.1/jsp-api-2.1.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/jsp-api-2.1.jar"/>
+  </Resources>
+</Context>

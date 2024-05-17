@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9d5a29ed-a34c-4e11-88df-6bce7ae35894" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.core.resources/.history/18/a07ff51dba12001f1fe1e8f00417fa0f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.core.resources/.history/1f/30dff61dba12001f1fe1e8f00417fa0f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.core.resources/.history/24/e0bdab9cbb12001f1fe1e8f00417fa0f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.core.resources/.history/6f/f0d1f31dba12001f1fe1e8f00417fa0f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.core.resources/.history/b3/e0e36f21bb12001f1fe1e8f00417fa0f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.jkiss.dbeaver.core/parameter-bindings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.jkiss.dbeaver.model.sql/variables/sql-variables-driver-oracle_oracle_thin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03_db/General/Scripts/Script-10.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp01/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp01/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp01/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp01/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp01/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp01/conf/Catalina/localhost/jsp01.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp01/conf/catalina.policy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp01/conf/catalina.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp01/conf/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp01/conf/jaspic-providers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp01/conf/jaspic-providers.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp01/conf/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp01/conf/server.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp01/conf/tomcat-users.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp01/conf/tomcat-users.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp01/conf/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp01/logs/catalina.2024-05-17.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp01/logs/host-manager.2024-05-17.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp01/logs/localhost.2024-05-17.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp01/logs/localhost_access_log.2024-05-17.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp01/logs/manager.2024-05-17.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp01/src/main/java/com/multi/jsp/TestServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp01/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp01/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp01/work/Catalina/localhost/jsp01/SESSIONS.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp01/work/Catalina/localhost/jsp01/org/apache/jsp/index_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp01/work/Catalina/localhost/jsp01/org/apache/jsp/index_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/Catalina/localhost/jsp02.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/catalina.policy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/catalina.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/jaspic-providers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/jaspic-providers.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/server.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/tomcat-users.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/tomcat-users.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/catalina.2024-05-17.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/host-manager.2024-05-17.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/localhost.2024-05-17.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/localhost_access_log.2024-05-17.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/manager.2024-05-17.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/check.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/insert2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/.bak_0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03_db/.metadata/.bak_0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03_db/.metadata/.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.core.resources/.projects/General/.markers.snap" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.core.resources/.projects/General/.markers.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.core.resources/.projects/General/.syncinfo.snap" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.core.resources/.projects/General/.syncinfo.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.core.resources/7.snap" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.core.resources/7.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.jkiss.dbeaver.core/column_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.jkiss.dbeaver.core/column_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/dbeaver-debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03_db/.metadata/dbeaver-debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03_db/General/.dbeaver/project-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03_db/General/.dbeaver/project-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03_db/General/Scripts/GAME.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03_db/General/Scripts/GAME.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03_db/General/Scripts/Script-9.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03_db/General/Scripts/Script-9.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "KHC0618"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/KHC0618/multi.git",
+    "accountId": "ccb2f482-797a-4b84-8755-ae07cce2bf0e"
+  }
+}]]></component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2gZyBAgJmlmjITwCfJZMaibmo2x" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Smart Tomcat.Tomcat: jsp02.executor": "Run",
+    "Smart Tomcat.jsp02.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/workspace/multi/04_servletjsp/itj/jsp02/src/main/webapp",
+    "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace\multi\04_servletjsp\itj\jsp02\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Smart Tomcat.jsp02">
+    <configuration name="Tomcat: jsp02" type="com.poratu.idea.plugins.tomcat">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="catalinaBase" value="C:\workspace\multi\04_servletjsp\itj\jsp02" />
+      <option name="contextPath" value="/jsp02" />
+      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+      <option name="envOptions">
+        <map />
+      </option>
+      <option name="extraClassPath" value="" />
+      <option name="port" value="8082" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/9.0.86" />
+          <option name="path" value="$PROJECT_DIR$/../../../../../apache-tomcat-9.0.86" />
+          <option name="version" value="9.0.86.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <module name="jsp02" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="com.poratu.idea.plugins.tomcat">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="catalinaBase" value="" />
+      <option name="contextPath" value="" />
+      <option name="docBase" value="" />
+      <option name="envOptions">
+        <map />
+      </option>
+      <option name="extraClassPath" value="" />
+      <option name="port" value="8082" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/9.0.86" />
+          <option name="path" value="$PROJECT_DIR$/../../../../../apache-tomcat-9.0.86" />
+          <option name="version" value="9.0.86.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <module name="jsp02" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jsp02" type="com.poratu.idea.plugins.tomcat">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="catalinaBase" value="C:\Users\PC\.SmartTomcat\jsp02\jsp02" />
+      <option name="contextPath" value="/jsp02" />
+      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+      <option name="envOptions">
+        <map />
+      </option>
+      <option name="extraClassPath" value="" />
+      <option name="port" value="8082" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/9.0.86" />
+          <option name="path" value="$PROJECT_DIR$/../../../../../apache-tomcat-9.0.86" />
+          <option name="version" value="9.0.86.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <module name="jsp02" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Smart Tomcat.jsp02" />
+      <item itemvalue="Smart Tomcat.Tomcat: jsp02" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d5a29ed-a34c-4e11-88df-6bce7ae35894" name="Changes" comment="" />
+      <created>1715919259343</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715919259343</updated>
+    </task>
+    <servers />
+  </component>
+</project>
