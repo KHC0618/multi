@@ -1,5 +1,5 @@
 
-package com.uni.common;
+package com.multi.jsp.common;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
