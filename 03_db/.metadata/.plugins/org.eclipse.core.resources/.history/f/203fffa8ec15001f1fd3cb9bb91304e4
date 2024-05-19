@@ -1,11 +1,25 @@
 -- CONNECTION: url=jdbc:mysql://localhost:3306/
+-- New script in localhost 2.
+-- Connection Type: dev 
+-- Url: jdbc:mysql://localhost:3306/
+-- workspace : C:\workspace\multi\03_db
+-- Date: 2024. 5. 17.
+-- Time: 오후 5:23:37
 
--- New script in localhost.
+-- CONNECTION: url=jdbc:mysql://localhost:3306/
+-- New script in localhost 2.
+-- Connection Type: dev 
+-- Url: jdbc:mysql://localhost:3306/
+-- workspace : C:\workspace\multi\03_db
+-- Date: 2024. 5. 7.
+-- Time: 오후 6:07:05
+
+-- New script in system-localhost 9.
 -- Connection Type: dev 
 -- Url: jdbc:oracle:thin:@//localhost:1521/XE
--- workspace : C:\workspace\multi\03_db
--- Date: 2024. 5. 8.
--- Time: 오전 9:10:07
+-- workspace : D:\multicampus-workspace\03_database
+-- Date: 2024. 5. 14.
+-- Time: 오후 1:08:37
 
 USE scott;
 
@@ -124,3 +138,8 @@ DROP TABLE place;
 
 SELECT * FROM place;
 SELECT * FROM movie;
+
+
+
+
+

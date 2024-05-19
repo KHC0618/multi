@@ -5,8 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d5a29ed-a34c-4e11-88df-6bce7ae35894" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/member_delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/member_insert.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/member_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/member_one.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/member_update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03_db/.metadata/.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.core.resources/.projects/General/.indexes/18/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.core.resources/.projects/General/.indexes/18/history.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.core.resources/.root/8.tree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.jkiss.dbeaver.core/column_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.jkiss.dbeaver.core/column_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/dbeaver-debug-1715644700903.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/dbeaver-debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03_db/.metadata/dbeaver-debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/dbeaver-instance.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03_db/.metadata/dbeaver-instance.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/dbeaver-workspace.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03_db/.metadata/dbeaver-workspace.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03_db/General/.dbeaver/.project-metadata.json.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03_db/General/.dbeaver/.project-metadata.json.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03_db/General/.dbeaver/project-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03_db/General/.dbeaver/project-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03_db/General/Scripts/DB_20240507_김희철.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03_db/General/Scripts/DB_20240507_김희철.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/multi/jsp/common/DBConnectionMgr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/multi/jsp/common/DBConnectionMgr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/multi/jsp/member/MemberDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/multi/jsp/member/MemberDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/member_insert.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/member_insert.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/member_one.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/member_one.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/member_update.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/member_update.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,18 +52,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "KHC0618"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;KHC0618&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/KHC0618/multi.git",
-    "accountId": "ccb2f482-797a-4b84-8755-ae07cce2bf0e"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/KHC0618/multi.git&quot;,
+    &quot;accountId&quot;: &quot;ccb2f482-797a-4b84-8755-ae07cce2bf0e&quot;
   }
-}]]></component>
+}</component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -48,9 +71,9 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2gZyBAgJmlmjITwCfJZMaibmo2x" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -64,12 +87,13 @@
     "Smart Tomcat.jsp02.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/workspace/multi/04_servletjsp/itj/jsp02/src/main/webapp",
+    "last_opened_file_path": "C:/workspace/multi/03_db/jdbc/jdbc_basic",
     "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace\multi\04_servletjsp\itj\jsp02\src\main\webapp\jsp" />
       <recent name="C:\workspace\multi\04_servletjsp\itj\jsp02\src\main\webapp" />
     </key>
   </component>
@@ -83,9 +107,6 @@
       <option name="catalinaBase" value="C:\workspace\multi\04_servletjsp\itj\jsp02" />
       <option name="contextPath" value="/jsp02" />
       <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
-      <option name="envOptions">
-        <map />
-      </option>
       <option name="extraClassPath" value="" />
       <option name="port" value="8082" />
       <option name="tomcatInfo">
@@ -110,9 +131,6 @@
       <option name="catalinaBase" value="" />
       <option name="contextPath" value="" />
       <option name="docBase" value="" />
-      <option name="envOptions">
-        <map />
-      </option>
       <option name="extraClassPath" value="" />
       <option name="port" value="8082" />
       <option name="tomcatInfo">
@@ -137,9 +155,6 @@
       <option name="catalinaBase" value="C:\Users\PC\.SmartTomcat\jsp02\jsp02" />
       <option name="contextPath" value="/jsp02" />
       <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
-      <option name="envOptions">
-        <map />
-      </option>
       <option name="extraClassPath" value="" />
       <option name="port" value="8082" />
       <option name="tomcatInfo">

@@ -1,11 +1,25 @@
 -- CONNECTION: url=jdbc:mysql://localhost:3306/
+-- New script in localhost 2.
+-- Connection Type: dev 
+-- Url: jdbc:mysql://localhost:3306/
+-- workspace : C:\workspace\multi\03_db
+-- Date: 2024. 5. 17.
+-- Time: 오후 5:23:37
 
--- New script in localhost.
+-- CONNECTION: url=jdbc:mysql://localhost:3306/
+-- New script in localhost 2.
+-- Connection Type: dev 
+-- Url: jdbc:mysql://localhost:3306/
+-- workspace : C:\workspace\multi\03_db
+-- Date: 2024. 5. 7.
+-- Time: 오후 6:07:05
+
+-- New script in system-localhost 9.
 -- Connection Type: dev 
 -- Url: jdbc:oracle:thin:@//localhost:1521/XE
--- workspace : C:\workspace\multi\03_db
--- Date: 2024. 5. 8.
--- Time: 오전 9:10:07
+-- workspace : D:\multicampus-workspace\03_database
+-- Date: 2024. 5. 14.
+-- Time: 오후 1:08:37
 
 USE scott;
 
@@ -50,77 +64,13 @@ VALUES ('m2', '리멤버', '드라마', '남주혁');
 	
 INSERT INTO movie
 VALUES ('m3', '자백', '스릴러', '소지섭');
-
-COMMIT;
-
+	
 SELECT * FROM movie;
 
-SELECT * 
-FROM movie 
-WHERE id = 'm1';
 
-UPDATE movie 
-SET content = '스릴러'
-WHERE id = 'm1';
 
-SELECT * 
-FROM movie
-WHERE id = 'm1';
 
-DELETE 
-FROM movie
-WHERE id = 'm1';
 
-SELECT * 
-FROM movie;
 
-COMMIT;
 
-CREATE TABLE place (
-	id VARCHAR(10),
-	name VARCHAR(10),
-	addr VARCHAR(10),
-	tel VARCHAR(10)
-);
 
-INSERT INTO place
-VALUES ('p1', 'cgv', '강남구 삼성동', '02-555');
-
-INSERT INTO place
-VALUES ('p2', 'megabox', '강남구 역삼동', '02-666');
-
-INSERT INTO place
-VALUES ('p3', 'lotte', '강남구 대치동', '02-777');
-
-COMMIT;
-
-SELECT * FROM place;
-
-SELECT *
-FROM place
-WHERE name = 'cgv';
-
-UPDATE place 
-SET tel = '02-888'
-WHERE name = 'lotte';
-
-SELECT *
-FROM place
-WHERE name = 'lotte';
-
-DELETE
-FROM place
-WHERE id = 'p3';
-
-DELETE 
-FROM movie;
-
-DELETE 
-FROM place;
-
-DROP TABLE movie;
-
-DROP TABLE place;
-
-SELECT * FROM place;
-SELECT * FROM movie;
