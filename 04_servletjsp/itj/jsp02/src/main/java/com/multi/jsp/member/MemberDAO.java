@@ -59,7 +59,7 @@ public class MemberDAO { // member테이블에 crud를 하고 싶으면 MemberDA
 		} catch (Exception e) { // Exception == Error
 			e.printStackTrace();// 에러정보를 추적해서 프린트해줘.!
 			System.out.println("에러발생함.!!!!");
-		}finally {
+		} finally {
 			dbcp.freeConnection(con, ps, rs);//반납 
 		}
 

@@ -84,5 +84,3 @@ COMMIT;
 
 
 UPDATE board SET title = '게시글 update1', content = 'update content1' WHERE NO = 1;
-
-SELECT * FROM board WHERE writer = 'm01';
