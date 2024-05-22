@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+    <script type="text/javascript">
+        Kakao.init('7cb60fe68fd4903f2da21cdfb325e356');
+        function login() {
+        Kakao.Auth.login({
+            success: function (response) {
+                Kakao.API.request({
+                    url: '/v2/user/me',
+                    success: function (response) {
+                        alert("로그인 성공")
+                        window.location.href = 'http://localhost:8090/jsp04/weather.html';
+                    },
+                    fail: function (error) {
+                        alert("로그인 실패")
+                    },
+                })
+            },
+            fail: function (error) {
+                alert("로그인 실패")
+            },
+        })
+    }
+    </script>
+</head>
+<body>
+    <a href="javascript:login()"><img src="kakao_login_medium_narrow.png"></img></a>
+</body>
+</html>

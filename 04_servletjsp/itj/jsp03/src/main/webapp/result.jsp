@@ -2,11 +2,8 @@
     pageEncoding="UTF-8"%>
 
     <%
-        String id = (String) request.getAttribute("id");
-        String pw = (String) request.getAttribute("pw");
-
-        String imagePath = request.getContextPath() + "/resources/img/";
-        String yesImagePath = imagePath + "ok.JPG";
+        String id = request.getParameter("id");
+        String pwd = request.getParameter("pwd");
     %>
 
 <!DOCTYPE html>
@@ -17,7 +14,6 @@
 </head>
 <body>
     <h3>아이디 : <%= id %></h3>
-	<h3>비번 : <%= pw %></h3>
-	<img src= <%=  yesImagePath%> >
+	<h3>비번 : <%= pwd %></h3>
 </body>
 </html>
