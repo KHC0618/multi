@@ -2,12 +2,11 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.multi.jsp</groupId>
-  <artifactId>jsp05</artifactId>
+  <artifactId>jsp06</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>jsp05 Maven Webapp</name>
+  <name>jsp06 Maven Webapp</name>
   <url>http://maven.apache.org</url>
-
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>11</maven.compiler.source>
@@ -62,6 +61,6 @@
 
   </dependencies>
   <build>
-    <finalName>jsp05</finalName>
+    <finalName>jsp06</finalName>
   </build>
 </project>
