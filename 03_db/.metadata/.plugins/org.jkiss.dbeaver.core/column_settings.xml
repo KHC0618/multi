@@ -98,19 +98,23 @@
 		<column name="Group" visible="true" order="3" width="130"/>
 	</item>
 	<item id="SchemaSelector">
-		<column name="Name" visible="true" order="0" width="130"/>
+		<column name="Schema Name" visible="true" order="0" width="100"/>
+		<column name="Default Charset" visible="true" order="1" width="100"/>
+		<column name="Default Collation" visible="true" order="2" width="103"/>
+		<column name="SQL Path" visible="true" order="3" width="100"/>
+		<column name="Database size" visible="true" order="4" width="100"/>
 	</item>
 	<item id="Suggestion/NodeList/MySQLTableColumn">
-		<column name="컬럼명" visible="true" order="0" width="103"/>
-		<column name="#" visible="true" order="1" width="64"/>
-		<column name="Data Type" visible="true" order="2" width="110"/>
+		<column name="컬럼명" visible="true" order="0" width="108"/>
+		<column name="#" visible="true" order="1" width="62"/>
+		<column name="Data Type" visible="true" order="2" width="108"/>
 		<column name="Not Null" visible="false" order="3" width="100"/>
 		<column name="Auto Increment" visible="false" order="4" width="100"/>
 		<column name="Key" visible="false" order="5" width="100"/>
 		<column name="디폴트" visible="false" order="6" width="100"/>
 		<column name="Extra" visible="false" order="7" width="100"/>
 		<column name="Expression" visible="false" order="8" width="100"/>
-		<column name="Comment" visible="true" order="3" width="105"/>
+		<column name="Comment" visible="true" order="3" width="103"/>
 	</item>
 	<item id="Suggestion/NodeList/OracleTableColumn">
 		<column name="컬럼명" visible="true" order="0" width="127"/>
