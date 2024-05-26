@@ -49,7 +49,7 @@
 						<td colspan="3" align="center">
 						<!-- https://join.shopping.naver.com/intro/effect.nhn 이렇게 확장자 쓰기도함. 하단 네이버 비지니스 -->
 							<!-- <a href="WEB-INF/views/member/memberEnrollForm.jsp">회원가입</a> 이제부터는 바로 페이지 요청 불가.. -->
-							<a href="${ pageContext.servletContext.contextPath}/member/insert"  >회원가입 </a> 
+							<a href="${ pageContext.servletContext.contextPath}/member/insert">회원가입 </a> 
 							<a href="" > 아이디/비번 찾기 </a>
 						</td>
 					</tr>

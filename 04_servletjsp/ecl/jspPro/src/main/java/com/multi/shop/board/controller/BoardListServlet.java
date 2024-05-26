@@ -39,10 +39,10 @@ public class BoardListServlet extends HttpServlet {
 		
 		try {
 
-				ArrayList<BoardDTO> list = boardService.selectList();
-				request.setAttribute("list", list);
-				System.out.println(list);
-				path = "/WEB-INF/views/board/board_list.jsp";
+			ArrayList<BoardDTO> list = boardService.selectList();
+			request.setAttribute("list", list);
+			System.out.println(list);
+			path = "/WEB-INF/views/board/board_list.jsp";
 			
 			
 		} catch (Exception e) {

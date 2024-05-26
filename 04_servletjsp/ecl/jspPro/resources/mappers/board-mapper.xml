@@ -44,22 +44,19 @@
 	</update>
 	
 	<insert id="insertBoard">
-        INSERT /* com.uni.shop.board.model.dao.BoardDAO.insertBoard() */
-          INTO BOARD 
-        (
-          CATEGORY_CODE
-        , TITLE
-        , CONTENT
-        , WRITER
-        )
-        VALUES
-        (
-    
-          #{ categoryCode }
-        , #{ title }
-        , #{ content }
-        , #{ writer }
-        )
+        INSERT INTO BOARD ( CATEGORY_CODE, TITLE, CONTENT, WRITER )
+        VALUES ( #{ categoryCode }, #{ title }, #{ content }, #{ writer } )
 	</insert>
+	
+	<update id="updateBoard">
+        UPDATE BOARD
+        SET CATEGORY_CODE = #{ categoryCode }, TITLE = #{ title }, CONTENT = #{ content }
+        WHERE NO = #{ no } AND WRITER = #{ writer }
+    </update>
+    
+    <delete id="deleteBoard" parameterType="_int">
+   		DELETE FROM BOARD
+    	WHERE NO = #{ no }
+	</delete>
 
 </mapper>

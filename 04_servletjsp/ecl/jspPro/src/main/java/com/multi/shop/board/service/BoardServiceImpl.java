@@ -40,9 +40,57 @@ public class BoardServiceImpl implements BoardService {
 	}
 
 	@Override
-	public int insertBoard(BoardDTO newBoard) {
+	public int insertBoard(BoardDTO newBoard) throws Exception {
 		// TODO Auto-generated method stub
-		return 0;
+		SqlSession sqlSession = getSqlSession();
+		
+		int result = boardDao.insertBoard(sqlSession, newBoard);
+		
+		if(result > 0) {
+			sqlSession.commit();
+		} else {
+			sqlSession.rollback();
+		}
+		
+        sqlSession.close();
+		
+		return result;
+	}
+	
+	@Override
+    public int updateBoard(BoardDTO board) throws Exception {
+		// TODO Auto-generated method stub
+		SqlSession sqlSession = getSqlSession();
+				
+		int result = boardDao.updateBoard(sqlSession, board);
+				
+		if(result > 0) {
+			sqlSession.commit();
+		} else {
+			sqlSession.rollback();
+		}
+				
+		sqlSession.close();
+				
+		return result;
+    }
+
+	@Override
+	public int deleteBoard(int bno) throws Exception {
+		// TODO Auto-generated method stub
+		SqlSession sqlSession = getSqlSession();
+		
+		int result = boardDao.deleteBoard(sqlSession, bno);
+				
+		if(result > 0) {
+			sqlSession.commit();
+		} else {
+			sqlSession.rollback();
+		}
+				
+		sqlSession.close();
+				
+		return result;
 	}
 
 }
