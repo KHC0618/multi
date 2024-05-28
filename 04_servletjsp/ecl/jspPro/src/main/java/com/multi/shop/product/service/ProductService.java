@@ -7,6 +7,8 @@ import com.multi.shop.product.model.dto.ProductDTO;
 
 public interface ProductService {
 	ArrayList<ProductDTO> selectList() throws Exception ;
+	
+	ArrayList<ProductDTO> selectList(String search) throws Exception ;
 
 	ProductDTO selectProduct(int pno) throws Exception ;
 

@@ -166,3 +166,7 @@ java.sql.SQLNonTransientConnectionException: Communications link failure during 
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 2024-05-28 00:27:29.889 - Execution context closed (localhost 2, 2)
 2024-05-28 00:27:29.889 - Disconnected (mysql8-18f3c45f4ce-7b783b169c9c510b)
+2024-05-29 08:43:24.600 - DBeaver is stopping
+2024-05-29 08:43:24.602 - Stop instance server
+2024-05-29 08:43:25.613 - Instance server has been stopped
+2024-05-29 08:43:25.613 - DBeaver shutdown completed

@@ -25,6 +25,17 @@ public class ProductServiceImpl implements ProductService {
 		
 		return list;
 	}
+	
+	@Override
+	public ArrayList<ProductDTO> selectList(String search) throws Exception {
+		// TODO Auto-generated method stub
+		SqlSession sqlSession = getSqlSession();
+		
+		ArrayList<ProductDTO> list = productDAO.selectList(sqlSession, search);
+		sqlSession.close();
+
+		return list;
+	}
 
 	@Override
 	public ProductDTO selectProduct(int pno) throws Exception {

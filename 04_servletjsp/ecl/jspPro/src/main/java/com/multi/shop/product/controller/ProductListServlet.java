@@ -34,10 +34,11 @@ public class ProductListServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		String search = request.getParameter("search");
 		String path = "";
 		
 		try {
-			ArrayList<ProductDTO> list = productService.selectList();
+			ArrayList<ProductDTO> list = productService.selectList(search);
 			request.setAttribute("list", list);
 			System.out.println(list);
 			path = "/WEB-INF/views/product/list.jsp";

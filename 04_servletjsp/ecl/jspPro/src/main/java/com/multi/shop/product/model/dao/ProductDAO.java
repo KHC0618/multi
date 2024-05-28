@@ -17,6 +17,11 @@ public class ProductDAO {
 	public ArrayList<ProductDTO> selectList(SqlSession sqlSession) throws Exception {
 		return (ArrayList) sqlSession.selectList("productMapper.selectList");
 	}
+	
+	public ArrayList<ProductDTO> selectList(SqlSession sqlSession, String search) throws Exception {
+		
+		return (ArrayList) sqlSession.selectList("productMapper.selectList", search);
+	}
 
 	public ProductDTO selectProduct(SqlSession sqlSession, int pno) {
 		// TODO Auto-generated method stub

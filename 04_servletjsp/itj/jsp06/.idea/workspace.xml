@@ -5,26 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6aa7c81-d8da-4586-9483-b1e8d0849395" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03_db/.metadata/.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.core.resources/.projects/General/.indexes/18/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.core.resources/.projects/General/.indexes/18/history.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.core.resources/.projects/General/.markers.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.core.resources/.projects/General/.syncinfo.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.core.resources/.root/14.tree" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.core.resources/14.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/dbeaver-debug-1716272318211.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/dbeaver-debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03_db/.metadata/dbeaver-debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/dbeaver-instance.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03_db/.metadata/dbeaver-instance.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/dbeaver-workspace.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03_db/.metadata/dbeaver-workspace.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ecl/jspPro/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../../ecl/jspPro/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ecl/jspPro/.settings/org.eclipse.wst.common.component" beforeDir="false" afterPath="$PROJECT_DIR$/../../ecl/jspPro/.settings/org.eclipse.wst.common.component" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ecl/jspPro/WebContent/WEB-INF/views/board/board_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ecl/jspPro/WebContent/WEB-INF/views/board/board_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ecl/jspPro/WebContent/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ecl/jspPro/WebContent/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ecl/jspPro/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ecl/jspPro/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ecl/jspPro/WebContent/WEB-INF/views/product/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ecl/jspPro/WebContent/WEB-INF/views/product/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ecl/jspPro/WebContent/WEB-INF/views/product/updateform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ecl/jspPro/WebContent/WEB-INF/views/product/updateform.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ecl/jspPro/resources/mappers/product-mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ecl/jspPro/resources/mappers/product-mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ecl/jspPro/src/main/java/com/multi/shop/product/controller/ProductListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ecl/jspPro/src/main/java/com/multi/shop/product/controller/ProductListServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ecl/jspPro/src/main/java/com/multi/shop/product/controller/ProductOneServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ecl/jspPro/src/main/java/com/multi/shop/product/controller/ProductOneServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ecl/jspPro/src/main/java/com/multi/shop/product/model/dao/ProductDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ecl/jspPro/src/main/java/com/multi/shop/product/model/dao/ProductDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ecl/jspPro/src/main/java/com/multi/shop/product/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ecl/jspPro/src/main/java/com/multi/shop/product/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ecl/jspPro/src/main/java/com/multi/shop/product/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ecl/jspPro/src/main/java/com/multi/shop/product/service/ProductServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

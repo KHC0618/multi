@@ -53,6 +53,9 @@
 		SELECT A.*,B.NAME COMPANYNAME /*B.NAME 같아서 주의  COMPANYNAME*/
 		FROM PRODUCT A
 		JOIN  COMPANY B ON A.COMPANY_ID = B.ID
+		<if test="name != null">
+			WHERE A.name LIKE CONCAT('%', #{name}, '%')
+		</if>
 		ORDER BY A.ID DESC
 	</select>
 	

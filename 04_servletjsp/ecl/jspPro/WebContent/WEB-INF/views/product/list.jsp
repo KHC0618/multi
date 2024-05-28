@@ -18,7 +18,20 @@
 <body>
 
 	   <jsp:include page="../common/menubar.jsp" />
-
+	<div class="container mt-4">
+    <!-- 검색 폼 -->
+	    <form method="get" action="${pageContext.servletContext.contextPath}/product/list">
+	        <div class="form-group row">
+	            <label for="search" class="col-sm-2 col-form-label">제품명 검색:</label>
+	            <div class="col-sm-8">
+	                <input type="text" class="form-control" id="search" name="search" value="${param.search}">
+	            </div>
+	            <div class="col-sm-2">
+	                <button type="submit" class="btn btn-primary">검색</button>
+	            </div>
+	        </div>
+	    </form>
+	</div>
     <!-- 제품 리스트 -->
     <div class="container mt-4">
         <table class="table table-hover table-bordered">

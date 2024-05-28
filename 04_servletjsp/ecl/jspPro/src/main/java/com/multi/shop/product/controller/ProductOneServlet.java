@@ -45,7 +45,7 @@ public class ProductOneServlet extends HttpServlet {
 			
 			ProductDTO product = productService.selectProduct(no);
 			
-            List<ProductDTO> productList = new ArrayList<>();
+            ArrayList<ProductDTO> productList = new ArrayList<>();
             
             productList.add(product);
             
