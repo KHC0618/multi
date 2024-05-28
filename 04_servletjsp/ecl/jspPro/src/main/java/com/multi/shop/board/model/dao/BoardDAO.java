@@ -15,7 +15,7 @@ public class BoardDAO {
 		
 	}
 	
-	public ArrayList<BoardDTO> selectList(SqlSession sqlSession) throws Exception{
+	public ArrayList<BoardDTO> selectList(SqlSession sqlSession) throws Exception {
 		
 
 		return (ArrayList)sqlSession.selectList("boardMapper.selectList");

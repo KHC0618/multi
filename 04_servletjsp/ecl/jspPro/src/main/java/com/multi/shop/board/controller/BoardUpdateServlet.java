@@ -32,13 +32,13 @@ public class BoardUpdateServlet extends HttpServlet {
      * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
      */
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        // Get the board number from the request parameter
+        
         String noStr = request.getParameter("no");
         int no = Integer.parseInt(noStr);
 
         String path = "";
         try {
-            // Get the board information based on the board number
+            
             BoardDTO board = boardService.selectBoard(no);
             request.setAttribute("b", board);
             path = "/WEB-INF/views/board/board_update.jsp";
@@ -62,12 +62,12 @@ public class BoardUpdateServlet extends HttpServlet {
         String title = request.getParameter("title");
         String content = request.getParameter("content");
 
-        // Get the writer information from the session
+        
         HttpSession session = request.getSession();
         MemberDTO loginMember = (MemberDTO) session.getAttribute("loginMember");
         String writer = loginMember.getId();
 
-        // Create a BoardDTO object with the updated information
+        
         BoardDTO board = new BoardDTO();
         board.setNo(no);
         board.setCategoryCode(Integer.parseInt(category));
@@ -81,7 +81,7 @@ public class BoardUpdateServlet extends HttpServlet {
         String path = "";
 
         try {
-            // Update the board information
+            
             result = boardService.updateBoard(board);
             if (result > 0) {
                 path = "/WEB-INF/views/common/success.jsp";
