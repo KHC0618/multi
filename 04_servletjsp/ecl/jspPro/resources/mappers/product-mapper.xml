@@ -99,7 +99,6 @@
 	        content = #{content},
 	        price = #{price},
 	        company_id = #{company.id}
-	        modify_person = #{modifyPerson}
 	    WHERE id = #{id}
 	</update>
 	
