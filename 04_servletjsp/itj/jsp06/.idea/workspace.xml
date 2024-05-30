@@ -5,14 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6aa7c81-d8da-4586-9483-b1e8d0849395" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../ecl/jspPro/WebContent/WEB-INF/views/product/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ecl/jspPro/WebContent/WEB-INF/views/product/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ecl/jspPro/WebContent/WEB-INF/views/product/updateform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ecl/jspPro/WebContent/WEB-INF/views/product/updateform.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ecl/jspPro/resources/mappers/product-mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ecl/jspPro/resources/mappers/product-mapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ecl/jspPro/src/main/java/com/multi/shop/product/controller/ProductListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ecl/jspPro/src/main/java/com/multi/shop/product/controller/ProductListServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ecl/jspPro/src/main/java/com/multi/shop/product/controller/ProductOneServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ecl/jspPro/src/main/java/com/multi/shop/product/controller/ProductOneServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ecl/jspPro/src/main/java/com/multi/shop/product/model/dao/ProductDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ecl/jspPro/src/main/java/com/multi/shop/product/model/dao/ProductDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ecl/jspPro/src/main/java/com/multi/shop/product/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ecl/jspPro/src/main/java/com/multi/shop/product/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ecl/jspPro/src/main/java/com/multi/shop/product/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ecl/jspPro/src/main/java/com/multi/shop/product/service/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/multi/el/controller/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.core.resources/.history/2/d082ad8e9e18001f121cb489dac513e5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.core.resources/.history/38/e0ebf1e99e18001f1dcd8840c46c5887" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.core.resources/.history/43/c0ad3e31a018001f1dcd8840c46c5887" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.core.resources/.history/6b/807d48e59d18001f121cb489dac513e5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.core.resources/.history/b/90781da19d18001f121cb489dac513e5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.core.resources/.history/bc/c0495d7ba018001f1dcd8840c46c5887" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.core.resources/.projects/General/.indexes/18/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.core.resources/.projects/General/.indexes/18/history.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.core.resources/.root/21.tree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.jkiss.dbeaver.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.jkiss.dbeaver.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03_db/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/dbeaver-debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03_db/.metadata/dbeaver-debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03_db/.metadata/dbeaver-instance.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../05_spring/Servers/Tomcat v9.0 Server at localhost-config/server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05_spring/Servers/Tomcat v9.0 Server at localhost-config/server.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +32,13 @@
   </component>
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
@@ -54,24 +69,25 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Smart Tomcat.jsp06.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/workspace/multi/04_servletjsp/itj/jsp06/src/main/webapp/WEB-INF/lib/jstl-1.2.jar&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2137931&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.test.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Smart Tomcat.jsp06.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/workspace/multi/04_servletjsp/itj/jsp06/src/main/webapp/WEB-INF/lib/jstl-1.2.jar",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2137931",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\workspace\multi\04_servletjsp\itj\jsp06\src\main\webapp\chap01" />
@@ -81,7 +97,20 @@
       <recent name="com.multi.dto" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.test">
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.multi.el.controller.test" />
+      <module name="jsp06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.multi.el.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="com.poratu.idea.plugins.tomcat">
       <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
       <predefined_log_file enabled="true" id="Tomcat Access Log" />
@@ -129,6 +158,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

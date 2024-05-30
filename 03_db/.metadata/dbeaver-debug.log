@@ -79,3 +79,14 @@ Warning: NLS unused message: actions_navigator__objects in: org.jkiss.dbeaver.ui
 2024-05-29 12:48:23.898 - Execution context closed (localhost 2, 2)
 2024-05-29 12:48:23.898 - Disconnected (mysql8-18f3c45f4ce-7b783b169c9c510b)
 2024-05-30 08:10:16.503 - System suspend detected! Reinitialize all remote connections.
+> Start DBeaver UI Editors - Connections [org.jkiss.dbeaver.ui.editors.connection 1.0.120.202404211624]
+2024-05-30 17:48:01.677 - Connect with 'localhost 2' (mysql8-18f3c45f4ce-7b783b169c9c510b)
+2024-05-30 17:48:01.680 - Execution context opened (localhost 2; Main; 3)
+2024-05-30 17:48:01.697 - Execution context opened (localhost 2; Metadata; 4)
+2024-05-30 17:48:01.720 - Connected (mysql8-18f3c45f4ce-7b783b169c9c510b, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
+2024-05-30 17:48:01.745 - Execution context opened (localhost 2; SQLEditor <jsp_mysql_scott.sql>; 5)
+2024-05-30 17:53:51.898 - Execution context closed (localhost 2, 5)
+2024-05-30 17:53:52.169 - DBeaver is stopping
+2024-05-30 17:53:52.170 - Stop instance server
+2024-05-30 17:53:53.174 - Instance server has been stopped
+2024-05-30 17:53:53.174 - DBeaver shutdown completed
