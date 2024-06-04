@@ -1,21 +1,21 @@
-2024-05-29 08:47:19.306 - DBeaver 24.0.3.202404211624 is starting
-2024-05-29 08:47:19.307 - OS: Windows 11 10.0 (amd64)
-2024-05-29 08:47:19.307 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
-2024-05-29 08:47:19.307 - Install path: 'C:\Users\PC\AppData\Local\DBeaver'
-2024-05-29 08:47:19.307 - Instance path: 'file:/C:/workspace/multi/03_db/'
-2024-05-29 08:47:19.308 - Memory available 64Mb/1024Mb
-2024-05-29 08:47:19.319 - Create display
-2024-05-29 08:47:19.396 - Initialize desktop platform...
-2024-05-29 08:47:19.527 - BounceCastle bundle found. Use JCE provider BC
+2024-06-04 02:42:48.833 - DBeaver 24.0.3.202404211624 is starting
+2024-06-04 02:42:48.834 - OS: Windows 11 10.0 (amd64)
+2024-06-04 02:42:48.834 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
+2024-06-04 02:42:48.834 - Install path: 'C:\Users\PC\AppData\Local\DBeaver'
+2024-06-04 02:42:48.834 - Instance path: 'file:/C:/workspace/multi/03_db/'
+2024-06-04 02:42:48.835 - Memory available 64Mb/1024Mb
+2024-06-04 02:42:48.842 - Create display
+2024-06-04 02:42:48.925 - Initialize desktop platform...
+2024-06-04 02:42:49.035 - BounceCastle bundle found. Use JCE provider BC
 > Start Core File Systems [org.eclipse.core.filesystem 1.10.200.v20231102-0934]
 > Start Core Resource Management [org.eclipse.core.resources 3.20.0.v20231102-0934]
 > Start 팀 지원 핵심 [org.eclipse.team.core 3.10.200.v20231106-1240]
 > Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.129.202404211624]
-2024-05-29 08:47:19.737 - Initialize base platform...
-2024-05-29 08:47:19.765 - Platform initialized (369ms)
+2024-06-04 02:42:49.245 - Initialize base platform...
+2024-06-04 02:42:49.271 - Platform initialized (346ms)
 > Start DBeaver UI Editors - Base [org.jkiss.dbeaver.ui.editors.base 1.0.129.202404211624]
-2024-05-29 08:47:19.841 - Starting instance server at http://localhost:59287
-2024-05-29 08:47:19.851 - Run workbench
+2024-06-04 02:42:49.349 - Starting instance server at http://localhost:52776
+2024-06-04 02:42:49.364 - Run workbench
 > Start Eclipse e4 작업영역 SWT [org.eclipse.e4.ui.workbench.swt 0.17.200.v20231030-2045]
 > Start Eclipse Application Services [org.eclipse.e4.core.services 2.4.200.v20231103-2012]
 > Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.200.v20231030-2045]
@@ -28,18 +28,18 @@
 > Start Eclipse e4 작업영역 SWT 렌더러 [org.eclipse.e4.ui.workbench.renderers.swt 0.16.200.v20231030-2045]
 > Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.18.100.v20231103-2012]
 > Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.200.v20231025-0632]
-2024-05-29 08:47:25.433 - Configure workbench window
+2024-06-04 02:42:56.043 - Configure workbench window
 > Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.119.202404211624]
-2024-05-29 08:47:25.537 - Total database drivers: 112 (112)
+2024-06-04 02:42:56.165 - Total database drivers: 112 (112)
 > Start 도움말 시스템 코어 [org.eclipse.help 3.10.200.v20231106-1240]
-2024-05-29 08:47:25.637 - Create actions
-2024-05-29 08:47:25.640 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
-2024-05-29 08:47:25.641 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
-2024-05-29 08:47:25.641 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
-2024-05-29 08:47:25.641 - Create workbench actions
+2024-06-04 02:42:56.270 - Create actions
+2024-06-04 02:42:56.274 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2024-06-04 02:42:56.274 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2024-06-04 02:42:56.274 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2024-06-04 02:42:56.274 - Create workbench actions
 > Start jna [com.sun.jna 5.13.0.v20230812-1000]
-2024-05-29 08:47:26.429 - Initialize workbench window
-2024-05-29 08:47:26.433 - Finish initialization
+2024-06-04 02:42:57.165 - Initialize workbench window
+2024-06-04 02:42:57.170 - Finish initialization
 > Start 기본 문서 편집기 [org.eclipse.ui.editors 3.17.100.v20231106-1600]
 > Start 텍스트 편집기 프레임워크 [org.eclipse.ui.workbench.texteditor 3.17.200.v20231106-1600]
 > Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.129.202404211624]
@@ -55,38 +55,69 @@ Warning: NLS unused message: actions_navigator__objects in: org.jkiss.dbeaver.ui
 > Start DBeaver ERD Model [org.jkiss.dbeaver.erd.model 1.0.89.202404211624]
 > Start DBeaver Dashboard UI [org.jkiss.dbeaver.ui.dashboard 1.0.126.202404211624]
 > Start DBeaver Dashboards Model [org.jkiss.dbeaver.model.dashboard 1.0.2.202404211624]
-2024-05-29 08:47:27.336 - Connect with 'localhost 2' (mysql8-18f3c45f4ce-7b783b169c9c510b)
 > Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.22.202404211624]
-> Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.214.202404211624]
-2024-05-29 08:47:27.364 - Execution context opened (localhost 2; Main; 0)
-> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.153.202404211624]
-2024-05-29 08:47:27.503 - Execution context opened (localhost 2; Metadata; 1)
-2024-05-29 08:47:27.561 - Connected (mysql8-18f3c45f4ce-7b783b169c9c510b, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
-2024-05-29 08:47:30.026 - Open [https://dbeaver.io/product/version.xml]
 > Start DBeaver Oracle Model [org.jkiss.dbeaver.ext.oracle 2.1.214.202404211624]
-> Start 핵심 비교 지원 [org.eclipse.compare.core 3.8.300.v20231106-1240]
+2024-06-04 02:42:58.413 - Connect with 'localhost 2' (mysql8-18f3c45f4ce-7b783b169c9c510b)
+> Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.214.202404211624]
+2024-06-04 02:42:58.445 - Execution context opened (localhost 2; Main; 0)
+> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.153.202404211624]
+2024-06-04 02:42:58.608 - Execution context opened (localhost 2; Metadata; 1)
+2024-06-04 02:42:58.659 - Connected (mysql8-18f3c45f4ce-7b783b169c9c510b, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
+2024-06-04 02:43:01.023 - Open [https://dbeaver.io/product/version.xml]
+2024-06-04 03:13:29.647 - End idle 1 transactions for mysql8-18f3c45f4ce-7b783b169c9c510b
+2024-06-04 06:43:18.551 - Execution context closed (localhost 2, 0)
+2024-06-04 06:43:18.563 - Execution context closed (localhost 2, 1)
+2024-06-04 06:43:18.563 - Disconnected (mysql8-18f3c45f4ce-7b783b169c9c510b)
+2024-06-04 08:15:22.507 - System suspend detected! Reinitialize all remote connections.
+2024-06-04 14:01:40.073 - Connect with 'localhost 2' (mysql8-18f3c45f4ce-7b783b169c9c510b)
+2024-06-04 14:01:40.080 - Execution context opened (localhost 2; Main; 2)
+2024-06-04 14:01:40.104 - Execution context opened (localhost 2; Metadata; 3)
+2024-06-04 14:01:40.127 - Connected (mysql8-18f3c45f4ce-7b783b169c9c510b, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
 > Start DBeaver SQL Terminal [org.jkiss.dbeaver.ui.editors.sql.terminal 1.0.105.202404211624]
+> Start 핵심 비교 지원 [org.eclipse.compare.core 3.8.300.v20231106-1240]
 > Start 콘솔 [org.eclipse.ui.console 3.13.100.v20230914-0751]
 > Start 디버그 핵심 [org.eclipse.debug.core 3.21.200.v20231021-1513]
-2024-05-29 08:47:56.033 - Execution context opened (localhost 2; SQLEditor <jsp_mysql_scott.sql>; 2)
+2024-06-04 14:02:01.876 - Execution context opened (localhost 2; SQLEditor <jsp_mysql_scott.sql>; 4)
 > Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.107.202404211624]
 > Start DBeaver MySQL UI Support [org.jkiss.dbeaver.ext.mysql.ui 1.0.121.202404211624]
 > Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.107.202404211624]
 > Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.24.202404211624]
-2024-05-29 09:18:34.070 - End idle 1 transactions for mysql8-18f3c45f4ce-7b783b169c9c510b
-2024-05-29 12:48:23.874 - Execution context closed (localhost 2, 0)
-2024-05-29 12:48:23.887 - Execution context closed (localhost 2, 1)
-2024-05-29 12:48:23.898 - Execution context closed (localhost 2, 2)
-2024-05-29 12:48:23.898 - Disconnected (mysql8-18f3c45f4ce-7b783b169c9c510b)
-2024-05-30 08:10:16.503 - System suspend detected! Reinitialize all remote connections.
+> Start DBeaver Data Transfer [org.jkiss.dbeaver.data.transfer 2.0.113.202404211624]
+2024-06-04 15:28:54.707 - End idle 1 transactions for mysql8-18f3c45f4ce-7b783b169c9c510b
 > Start DBeaver UI Editors - Connections [org.jkiss.dbeaver.ui.editors.connection 1.0.120.202404211624]
-2024-05-30 17:48:01.677 - Connect with 'localhost 2' (mysql8-18f3c45f4ce-7b783b169c9c510b)
-2024-05-30 17:48:01.680 - Execution context opened (localhost 2; Main; 3)
-2024-05-30 17:48:01.697 - Execution context opened (localhost 2; Metadata; 4)
-2024-05-30 17:48:01.720 - Connected (mysql8-18f3c45f4ce-7b783b169c9c510b, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
-2024-05-30 17:48:01.745 - Execution context opened (localhost 2; SQLEditor <jsp_mysql_scott.sql>; 5)
-2024-05-30 17:53:51.898 - Execution context closed (localhost 2, 5)
-2024-05-30 17:53:52.169 - DBeaver is stopping
-2024-05-30 17:53:52.170 - Stop instance server
-2024-05-30 17:53:53.174 - Instance server has been stopped
-2024-05-30 17:53:53.174 - DBeaver shutdown completed
+2024-06-04 17:11:20.997 - Connect with 'localhost' (oracle_thin-18f3c210cad-503504f4b1ee1cc3)
+2024-06-04 17:11:21.009 - Execution context opened (localhost; Main; 5)
+2024-06-04 17:11:21.314 - Execution context opened (localhost; Metadata; 6)
+2024-06-04 17:11:21.364 - Connected (oracle_thin-18f3c210cad-503504f4b1ee1cc3, Oracle JDBC driver [11.2.0.2.0])
+2024-06-04 17:33:18.256 - Execution context opened (localhost 2; SQLEditor <day05_mysql_scott.sql>; 7)
+2024-06-04 17:33:20.431 - Execution context opened (localhost 2; SQLEditor <day02_mysql.sql>; 8)
+> Start DBeaver Oracle UI [org.jkiss.dbeaver.ext.oracle.ui 1.0.116.202404211624]
+2024-06-04 17:33:33.091 - Execution context opened (localhost; SQLEditor <DB_202405089_김희철.sql>; 9)
+2024-06-04 17:33:38.176 - Execution context opened (localhost; SQLEditor <DB_20240513_김희철.sql>; 10)
+2024-06-04 17:33:47.485 - Execution context opened (localhost 2; SQLEditor <DB_20240507_김희철.sql>; 11)
+2024-06-04 17:33:54.809 - Execution context opened (localhost; SQLEditor <day06_oracle_scott.sql>; 12)
+2024-06-04 17:34:01.953 - Error while analyzing query text: --ANSI 표준구문
+-- 연결에 사용할 컬럼명이 같은경우에 USING(컬럼명)을 사용함
+
+SELECT EMPNO, ENAME, JOB, DEPTNO, LOC
+FROM EMP
+JOIN DEPT USING (DEPTNO)
+java.lang.UnsupportedOperationException: Symbol already classified
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:49)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:70)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.model.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:82)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.model.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:64)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.model.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:106)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.model.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:64)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.model.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:55)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:69)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:651)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:501)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:81)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-06-04 17:34:11.341 - Execution context opened (localhost; SQLEditor <day02_oracle_scott.sql>; 13)
+2024-06-04 17:34:19.403 - Execution context opened (localhost; SQLEditor <day07_oracle_scott.sql>; 14)
+2024-06-04 17:34:22.325 - Execution context opened (localhost; SQLEditor <day07_oracle_hr.sql>; 15)
+2024-06-04 17:34:37.920 - Execution context opened (localhost; SQLEditor <Script-10.sql>; 16)
+2024-06-04 17:34:38.945 - Execution context opened (localhost 2; SQLEditor <Script-11.sql>; 17)

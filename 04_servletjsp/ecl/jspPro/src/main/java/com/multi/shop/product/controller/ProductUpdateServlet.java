@@ -66,7 +66,6 @@ public class ProductUpdateServlet extends HttpServlet {
             String name = request.getParameter("name");
             String content = request.getParameter("content");
             int price = Integer.parseInt(request.getParameter("price"));
-            int companyId = Integer.parseInt(request.getParameter("company_id"));
             String modifyPerson = request.getParameter("modify_person");
 
             ProductDTO product = new ProductDTO();
@@ -74,7 +73,6 @@ public class ProductUpdateServlet extends HttpServlet {
             product.setName(name);
             product.setContent(content);
             product.setPrice(price);
-            product.setCompanyId(companyId);
             product.setModifyPerson(modifyPerson);
 
             // 파일 업로드 처리

@@ -52,6 +52,7 @@ INSERT INTO CATEGORY (C_CODE, C_NAME) VALUES(30, '요리');
 INSERT INTO CATEGORY (C_CODE, C_NAME) VALUES(70, '기타');
 
 COMMIT;
+
 SELECT * FROM CATEGORY;
 
 DROP TABLE BOARD CASCADE;
@@ -123,7 +124,6 @@ CREATE TABLE PRODUCT (
   	MODIFIED_PERSON VARCHAR (100),
   	STATUS CHAR(1) DEFAULT 'Y',
   	FOREIGN KEY (COMPANY_ID) REFERENCES COMPANY(ID)
-
 );
 
 DROP TABLE attachment ;
@@ -149,3 +149,20 @@ INSERT INTO product (NAME, CONTENT, PRICE, COMPANY_ID, CREATED_PERSON)
 VALUES ('testNAME', 'testCONTENT', 10000, 'c100', 'admin');
 
 COMMIT;
+
+
+
+ CREATE TABLE `book` (
+ `id` int NOT NULL AUTO_INCREMENT,
+ `name` varchar(256) DEFAULT NULL,
+ `url` varchar(256) DEFAULT NULL,
+ `img` varchar(256) DEFAULT NULL,
+ PRIMARY KEY (`id`)
+ ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+ 
+ insert into book values
+ (null, 'naver', 'http://www.naver.com', 'naver.png'); 
+ insert into book values
+ (null,  'daum', 'http://www.daum.net', 'daum.png');
+ insert into book values
+ (null,  'google', 'http://www.google.com', 'google.png');

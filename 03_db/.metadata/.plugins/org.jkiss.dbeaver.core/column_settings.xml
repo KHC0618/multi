@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <items>
+	<item id="MySQLPrivilegesEditor">
+		<column name="Privilege" visible="true" order="0" width="201"/>
+		<column name="Enabled" visible="true" order="1" width="100"/>
+		<column name="Description" visible="true" order="2" width="317"/>
+	</item>
 	<item id="NodeList/DBNDatabaseFolder">
 		<column name="이름" visible="true" order="0" width="100"/>
 	</item>

@@ -16,7 +16,7 @@ public class InterruptExample {
         });
 
         thread.interrupt();
-        
+
         thread.start();
 
         try {
