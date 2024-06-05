@@ -34,6 +34,7 @@ public class BookController {
 	
 	@GetMapping("/one")
 	public void bookOne(String id, Model model) {
+		
 		BookDTO bookDTO = dao.one(id);
 		
 		model.addAttribute("dto", bookDTO);
@@ -41,6 +42,7 @@ public class BookController {
 	
 	@PostMapping("/insert")
     public String insert(BookDTO book) {
+		
         int result = dao.insert(book);
         
         if(result < 0) {

@@ -73,7 +73,7 @@ public class MovieController {
 		
 		model.addAttribute(movie);
 		
-		String page = "/" + movie;
+		String page = "/movie/" + movie;
 		
 		return page;
 	}
