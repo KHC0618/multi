@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="boardMapper">
+
+    <insert id="insertBoard" parameterType="boardDTO" useGeneratedKeys="true" keyProperty="bbsId">
+        insert into bbs2 (title, content, writer, fileName)
+        values (#{title}, #{content}, #{writer}, #{fileName})
+    </insert>
+
+    <select id="selectBoard" parameterType="int" resultType="boardDTO">
+        select * from bbs2 where bbsId = #{bbsId}
+    </select>
+
+    <select id="selectList" resultType="boardDTO">
+        select * from bbs2 order by bbsId desc
+    </select>
+
+    <delete id="deleteBoard" parameterType="int">
+        delete from bbs2 where bbsId = #{bbsId}
+    </delete>
+
+    <update id="updateBoard" parameterType="boardDTO">
+        update bbs2 set title = #{title}, content = #{content}, fileName = #{fileName} where bbsId = #{bbsId}
+    </update>
+</mapper>

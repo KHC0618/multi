@@ -18,5 +18,11 @@ CREATE TABLE bbs2 (
     FOREIGN KEY (writer) REFERENCES member(id)
 );
 
+DROP TABLE ordercart ;
+
+CREATE TABLE ordercart (
+	'상품명' VARCHAR(100),
+	'가격' INT
+);
 
 SELECT * FROM bbs2;

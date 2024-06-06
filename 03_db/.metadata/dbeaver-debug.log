@@ -1,21 +1,21 @@
-2024-06-05 15:10:18.830 - DBeaver 24.0.3.202404211624 is starting
-2024-06-05 15:10:18.830 - OS: Windows 11 10.0 (amd64)
-2024-06-05 15:10:18.832 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
-2024-06-05 15:10:18.832 - Install path: 'C:\Users\PC\AppData\Local\DBeaver'
-2024-06-05 15:10:18.832 - Instance path: 'file:/C:/workspace/multi/03_db/'
-2024-06-05 15:10:18.834 - Memory available 64Mb/1024Mb
-2024-06-05 15:10:18.846 - Create display
-2024-06-05 15:10:18.928 - Initialize desktop platform...
-2024-06-05 15:10:19.025 - BounceCastle bundle found. Use JCE provider BC
+2024-06-06 20:42:43.039 - DBeaver 24.0.3.202404211624 is starting
+2024-06-06 20:42:43.041 - OS: Windows 11 10.0 (amd64)
+2024-06-06 20:42:43.041 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
+2024-06-06 20:42:43.041 - Install path: 'C:\Users\PC\AppData\Local\DBeaver'
+2024-06-06 20:42:43.041 - Instance path: 'file:/C:/workspace/multi/03_db/'
+2024-06-06 20:42:43.043 - Memory available 64Mb/1024Mb
+2024-06-06 20:42:43.056 - Create display
+2024-06-06 20:42:43.149 - Initialize desktop platform...
+2024-06-06 20:42:43.264 - BounceCastle bundle found. Use JCE provider BC
 > Start Core File Systems [org.eclipse.core.filesystem 1.10.200.v20231102-0934]
 > Start Core Resource Management [org.eclipse.core.resources 3.20.0.v20231102-0934]
 > Start 팀 지원 핵심 [org.eclipse.team.core 3.10.200.v20231106-1240]
 > Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.129.202404211624]
-2024-06-05 15:10:19.227 - Initialize base platform...
-2024-06-05 15:10:19.249 - Platform initialized (321ms)
+2024-06-06 20:42:43.480 - Initialize base platform...
+2024-06-06 20:42:43.504 - Platform initialized (355ms)
 > Start DBeaver UI Editors - Base [org.jkiss.dbeaver.ui.editors.base 1.0.129.202404211624]
-2024-06-05 15:10:19.323 - Starting instance server at http://localhost:50616
-2024-06-05 15:10:19.334 - Run workbench
+2024-06-06 20:42:43.581 - Starting instance server at http://localhost:62801
+2024-06-06 20:42:43.594 - Run workbench
 > Start Eclipse e4 작업영역 SWT [org.eclipse.e4.ui.workbench.swt 0.17.200.v20231030-2045]
 > Start Eclipse Application Services [org.eclipse.e4.core.services 2.4.200.v20231103-2012]
 > Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.200.v20231030-2045]
@@ -28,18 +28,18 @@
 > Start Eclipse e4 작업영역 SWT 렌더러 [org.eclipse.e4.ui.workbench.renderers.swt 0.16.200.v20231030-2045]
 > Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.18.100.v20231103-2012]
 > Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.200.v20231025-0632]
-2024-06-05 15:10:25.104 - Configure workbench window
+2024-06-06 20:42:50.261 - Configure workbench window
 > Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.119.202404211624]
-2024-06-05 15:10:25.219 - Total database drivers: 112 (112)
+2024-06-06 20:42:50.377 - Total database drivers: 112 (112)
 > Start 도움말 시스템 코어 [org.eclipse.help 3.10.200.v20231106-1240]
-2024-06-05 15:10:25.317 - Create actions
-2024-06-05 15:10:25.320 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
-2024-06-05 15:10:25.322 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
-2024-06-05 15:10:25.322 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
-2024-06-05 15:10:25.322 - Create workbench actions
+2024-06-06 20:42:50.488 - Create actions
+2024-06-06 20:42:50.493 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2024-06-06 20:42:50.493 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2024-06-06 20:42:50.493 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2024-06-06 20:42:50.493 - Create workbench actions
 > Start jna [com.sun.jna 5.13.0.v20230812-1000]
-2024-06-05 15:10:26.129 - Initialize workbench window
-2024-06-05 15:10:26.133 - Finish initialization
+2024-06-06 20:42:51.348 - Initialize workbench window
+2024-06-06 20:42:51.352 - Finish initialization
 > Start 기본 문서 편집기 [org.eclipse.ui.editors 3.17.100.v20231106-1600]
 > Start 텍스트 편집기 프레임워크 [org.eclipse.ui.workbench.texteditor 3.17.200.v20231106-1600]
 > Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.129.202404211624]
@@ -57,33 +57,191 @@ Warning: NLS unused message: actions_navigator__objects in: org.jkiss.dbeaver.ui
 > Start DBeaver ERD Model [org.jkiss.dbeaver.erd.model 1.0.89.202404211624]
 > Start DBeaver Dashboard UI [org.jkiss.dbeaver.ui.dashboard 1.0.126.202404211624]
 > Start DBeaver Dashboards Model [org.jkiss.dbeaver.model.dashboard 1.0.2.202404211624]
-> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.22.202404211624]
-> Start DBeaver Oracle Model [org.jkiss.dbeaver.ext.oracle 2.1.214.202404211624]
 > Start DBeaver UI Editors - Connections [org.jkiss.dbeaver.ui.editors.connection 1.0.120.202404211624]
 > Start 콘솔 [org.eclipse.ui.console 3.13.100.v20230914-0751]
 > Start 디버그 핵심 [org.eclipse.debug.core 3.21.200.v20231021-1513]
-2024-06-05 15:10:28.152 - Connect with 'localhost 2' (mysql8-18f3c45f4ce-7b783b169c9c510b)
+2024-06-06 20:42:53.572 - Connect with 'localhost 2' (mysql8-18f3c45f4ce-7b783b169c9c510b)
+> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.22.202404211624]
 > Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.214.202404211624]
-2024-06-05 15:10:28.178 - Execution context opened (localhost 2; Main; 0)
+2024-06-06 20:42:53.594 - Execution context opened (localhost 2; Main; 0)
 > Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.153.202404211624]
-2024-06-05 15:10:28.312 - Execution context opened (localhost 2; Metadata; 1)
-2024-06-05 15:10:28.363 - Connected (mysql8-18f3c45f4ce-7b783b169c9c510b, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
-2024-06-05 15:10:28.365 - Execution context opened (localhost 2; SQLEditor <20240605_mysql_scott.sql>; 2)
-> Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.24.202404211624]
+2024-06-06 20:42:53.754 - Execution context opened (localhost 2; Metadata; 1)
+2024-06-06 20:42:53.808 - Connected (mysql8-18f3c45f4ce-7b783b169c9c510b, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
+2024-06-06 20:42:53.811 - Execution context opened (localhost 2; SQLEditor <20240605_mysql_scott.sql>; 2)
 > Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.107.202404211624]
 > Start DBeaver MySQL UI Support [org.jkiss.dbeaver.ext.mysql.ui 1.0.121.202404211624]
 > Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.107.202404211624]
-2024-06-05 15:10:30.384 - Open [https://dbeaver.io/product/version.xml]
-> Start DBeaver Data Transfer [org.jkiss.dbeaver.data.transfer 2.0.113.202404211624]
-2024-06-05 15:10:55.725 - Error resolving object
-org.jkiss.dbeaver.DBException: Table 'bbs2' not found in catalog 'scott'
-	at org.jkiss.dbeaver.ext.mysql.model.MySQLStructureAssistant$1.resolveObject(MySQLStructureAssistant.java:149)
-	at org.jkiss.dbeaver.ui.editors.sql.dialogs.SuggestionInformationControl$1.run(SuggestionInformationControl.java:130)
+> Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.24.202404211624]
+2024-06-06 20:42:55.728 - Open [https://dbeaver.io/product/version.xml]
+2024-06-06 20:43:19.997 - SQL Error [1051] [42S02]: Unknown table 'scott.ordercart'
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1051] [42S02]: Unknown table 'scott.ordercart'
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
 	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-2024-06-05 15:10:57.472 - Table 'scott.bbs2' not found in metadata catalog
-2024-06-05 15:10:57.472 - Table 'scott.bbs2' not found in metadata catalog
-2024-06-05 15:10:57.472 - Table 'scott.bbs2' not found in metadata catalog
-2024-06-05 15:10:57.472 - Table 'scott.bbs2' not found in metadata catalog
-2024-06-05 15:10:57.473 - Table 'scott.bbs2' not found in metadata catalog
-2024-06-05 16:05:50.051 - End idle 1 transactions for mysql8-18f3c45f4ce-7b783b169c9c510b
+Caused by: java.sql.SQLSyntaxErrorException: Unknown table 'scott.ordercart'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+> Start DBeaver Oracle Model [org.jkiss.dbeaver.ext.oracle 2.1.214.202404211624]
+> Start ICU4J Base [com.ibm.icu.base 58.2.0.v20170418-1837]
+2024-06-06 21:50:08.885 - Execution context opened (localhost 2; SQLEditor <jsp_mysql_scott.sql>; 3)
+2024-06-06 21:50:09.369 - Event loop exception
+java.lang.NullPointerException: Cannot invoke "org.eclipse.gef.EditPartViewer.getEditPartRegistry()" because the return value of "org.eclipse.gef.editparts.AbstractGraphicalEditPart.getViewer()" is null
+	at org.eclipse.gef.editparts.AbstractGraphicalEditPart.getLayer(AbstractGraphicalEditPart.java:483)
+	at org.jkiss.dbeaver.erd.ui.part.AssociationPart.setConnectionRouting(AssociationPart.java:153)
+	at org.jkiss.dbeaver.erd.ui.part.DiagramPart.resetConnectionConstraints(DiagramPart.java:243)
+	at org.jkiss.dbeaver.erd.ui.part.DiagramPart.lambda$1(DiagramPart.java:217)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:68)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:172)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:295)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.invokeFramework(DBeaverLauncher.java:647)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.basicRun(DBeaverLauncher.java:607)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.run(DBeaverLauncher.java:1464)
+2024-06-06 21:50:09.386 - Event loop exception
+java.lang.NullPointerException: Cannot invoke "org.eclipse.gef.EditPartViewer.getEditPartRegistry()" because the return value of "org.eclipse.gef.editparts.AbstractGraphicalEditPart.getViewer()" is null
+	at org.eclipse.gef.editparts.AbstractGraphicalEditPart.getLayer(AbstractGraphicalEditPart.java:483)
+	at org.jkiss.dbeaver.erd.ui.part.AssociationPart.setConnectionRouting(AssociationPart.java:153)
+	at org.jkiss.dbeaver.erd.ui.part.DiagramPart.resetConnectionConstraints(DiagramPart.java:243)
+	at org.jkiss.dbeaver.erd.ui.part.DiagramPart.lambda$1(DiagramPart.java:217)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:68)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:172)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:295)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.invokeFramework(DBeaverLauncher.java:647)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.basicRun(DBeaverLauncher.java:607)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.run(DBeaverLauncher.java:1464)
+2024-06-06 21:50:09.436 - Event loop exception
+java.lang.NullPointerException: Cannot invoke "org.eclipse.gef.EditPartViewer.getEditPartRegistry()" because the return value of "org.eclipse.gef.editparts.AbstractGraphicalEditPart.getViewer()" is null
+	at org.eclipse.gef.editparts.AbstractGraphicalEditPart.getLayer(AbstractGraphicalEditPart.java:483)
+	at org.jkiss.dbeaver.erd.ui.part.AssociationPart.setConnectionRouting(AssociationPart.java:153)
+	at org.jkiss.dbeaver.erd.ui.part.DiagramPart.resetConnectionConstraints(DiagramPart.java:243)
+	at org.jkiss.dbeaver.erd.ui.part.DiagramPart.lambda$1(DiagramPart.java:217)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:68)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:172)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:295)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.invokeFramework(DBeaverLauncher.java:647)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.basicRun(DBeaverLauncher.java:607)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.run(DBeaverLauncher.java:1464)
+2024-06-06 21:50:09.437 - Event loop exception
+java.lang.NullPointerException: Cannot invoke "org.eclipse.gef.EditPartViewer.getEditPartRegistry()" because the return value of "org.eclipse.gef.editparts.AbstractGraphicalEditPart.getViewer()" is null
+	at org.eclipse.gef.editparts.AbstractGraphicalEditPart.getLayer(AbstractGraphicalEditPart.java:483)
+	at org.jkiss.dbeaver.erd.ui.part.AssociationPart.setConnectionRouting(AssociationPart.java:153)
+	at org.jkiss.dbeaver.erd.ui.part.DiagramPart.resetConnectionConstraints(DiagramPart.java:243)
+	at org.jkiss.dbeaver.erd.ui.part.DiagramPart.lambda$1(DiagramPart.java:217)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:68)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:172)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:295)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.invokeFramework(DBeaverLauncher.java:647)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.basicRun(DBeaverLauncher.java:607)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.run(DBeaverLauncher.java:1464)
+2024-06-06 21:50:09.439 - Source or target node not found
+2024-06-06 21:50:09.440 - Source or target node not found
+2024-06-06 21:50:09.441 - Source or target node not found
+2024-06-06 21:50:09.441 - Source or target node not found
+2024-06-06 21:50:09.441 - Source or target node not found
+2024-06-06 21:50:09.442 - Source or target node not found
+2024-06-06 21:50:09.442 - Source or target node not found
+2024-06-06 21:50:09.443 - Source or target node not found
+2024-06-06 21:50:09.443 - Source or target node not found
+2024-06-06 21:50:09.444 - Source or target node not found
+2024-06-06 21:50:09.444 - Source or target node not found
+2024-06-06 21:50:09.445 - Source or target node not found
+2024-06-06 22:25:58.087 - End idle 1 transactions for mysql8-18f3c45f4ce-7b783b169c9c510b
+2024-06-06 23:55:42.422 - End idle 1 transactions for mysql8-18f3c45f4ce-7b783b169c9c510b

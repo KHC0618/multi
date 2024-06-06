@@ -18,5 +18,4 @@ CREATE TABLE bbs2 (
     FOREIGN KEY (writer) REFERENCES member(id)
 );
 
-
 SELECT * FROM bbs2;

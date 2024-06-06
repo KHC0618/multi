@@ -72,7 +72,7 @@
     
     <div class="container">
         <h1>글쓰기</h1>
-        <form action="${pageContext.servletContext.contextPath}/bbs/write" method="post" enctype="multipart/form-data">
+        <form action="write" method="post" enctype="multipart/form-data">
             <label for="title">제목:</label>
             <input type="text" id="title" name="title" required>
             
@@ -80,9 +80,9 @@
             <textarea id="content" name="content" rows="10" required></textarea>
             
             <label for="file">사진 첨부:</label>
-            <input type="file" id="file" name="singleFile">
+            <input type="file" id="file" name="file">
             
-            <input type="hidden" name="writer" value="${sessionScope.member.username}">
+            <input type="hidden" name="writer" value="${sessionScope.loginUser.id}">
             
             <button type="submit">작성</button>
         </form>
