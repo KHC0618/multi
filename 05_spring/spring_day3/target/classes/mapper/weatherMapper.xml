@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="weatherMapper">
+
+    <insert id="insertWeather" parameterType="weatherDTO">
+        INSERT INTO weather (temperature, weather_condition, humidity, timestamp)
+        VALUES (#{temperature}, #{weatherCondition}, #{humidity}, CURRENT_TIMESTAMP)
+    </insert>
+
+    <select id="selectAllWeather" resultType="weatherDTO">
+        SELECT * FROM weather
+    </select>
+</mapper>

@@ -69,9 +69,9 @@
                 <c:forEach var="list" items="${list}">
                     <tr>
                         <td>${list.bbsId}</td>
-                        <td><a href="${pageContext.servletContext.contextPath}/bbs/view?bbsId=${list.bbsId}">${list.title}</a></td>
+                        <td><a href="${pageContext.servletContext.contextPath}/board/view?bbsId=${list.bbsId}">${list.title}</a></td>
                         <td>${list.writer}</td>
-                        <td>${list.createDate}</td>
+                        <td>${list.fileName}</td>
                     </tr>
                 </c:forEach>
             </tbody>

@@ -67,10 +67,9 @@ public class BoardController {
     }
 
     @GetMapping("/view/{bbsId}")
-    public String view(@PathVariable("bbsId") int bbsId, Model model) throws Exception {
+    public void view(@PathVariable("bbsId") int bbsId, Model model) throws Exception {
         BoardDTO board = boardService.selectBoard(bbsId);
         model.addAttribute("board", board);
-        return "view";
     }
 
     @GetMapping("/delete/{bbsId}")

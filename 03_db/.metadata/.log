@@ -8116,3 +8116,16 @@ java.lang.NullPointerException: Cannot invoke "org.eclipse.gef.EditPartViewer.ge
 
 !ENTRY org.jkiss.dbeaver.model 2 0 2024-06-06 21:50:09.445
 !MESSAGE Source or target node not found
+
+!ENTRY org.jkiss.dbeaver.model 2 0 2024-06-07 08:56:15.099
+!MESSAGE Some data source listeners are still registered: org.jkiss.dbeaver.model.navigator.DBNProjectDatabases:node://General/datasources
+!SESSION 2024-06-07 09:32:24.714 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -eclipse.keyring C:\Users\PC\AppData\Roaming\DBeaverData\secure\secure_storage
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 2 2 2024-06-07 09:32:37.086
+!MESSAGE Invalid preference category path: org.eclipse.debug.ui.ConsolePreferencePage (bundle: org.eclipse.ui.console, page: org.eclipse.ui.internal.console.ansi.preferences.AnsiConsolePreferencePage)
