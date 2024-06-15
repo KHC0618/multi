@@ -66,7 +66,7 @@ public class BoardController {
         model.addAttribute("list", boardList);
     }
 
-    @GetMapping("/view/{bbsId}")
+    @GetMapping("/board/view/{bbsId}")
     public void view(@PathVariable("bbsId") int bbsId, Model model) throws Exception {
         BoardDTO board = boardService.selectBoard(bbsId);
         model.addAttribute("board", board);

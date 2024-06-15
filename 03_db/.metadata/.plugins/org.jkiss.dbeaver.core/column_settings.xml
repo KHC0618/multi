@@ -11,6 +11,13 @@
 	<item id="NodeList/DBNDatabaseObject">
 		<column name="이름" visible="true" order="0" width="115"/>
 	</item>
+	<item id="NodeList/MySQLCatalog">
+		<column name="Schema Name" visible="true" order="0" width="100"/>
+		<column name="Default Charset" visible="true" order="1" width="100"/>
+		<column name="Default Collation" visible="true" order="2" width="105"/>
+		<column name="SQL Path" visible="true" order="3" width="100"/>
+		<column name="Database size" visible="true" order="4" width="100"/>
+	</item>
 	<item id="NodeList/MySQLTable">
 		<column name="테이블명" visible="true" order="0" width="100"/>
 		<column name="Engine" visible="true" order="1" width="100"/>
