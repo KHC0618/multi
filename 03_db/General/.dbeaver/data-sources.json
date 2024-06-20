@@ -130,6 +130,22 @@
 				},
 				"auth-model": "oracle_native"
 			}
+		},
+		"mysql8-1903426855a-6b84526aa49bbbfd": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "team1-db-0619.c3840ogo6dqu.us-east-2.rds.amazonaws",
+			"save-password": true,
+			"configuration": {
+				"host": "team1-db-0619.c3840ogo6dqu.us-east-2.rds.amazonaws.com",
+				"port": "3306",
+				"url": "jdbc:mysql://team1-db-0619.c3840ogo6dqu.us-east-2.rds.amazonaws.com:3306/",
+				"configurationType": "MANUAL",
+				"home": "mysql_client",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
 		}
 	},
 	"connection-types": {
