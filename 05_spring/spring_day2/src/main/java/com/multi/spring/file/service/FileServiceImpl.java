@@ -24,6 +24,7 @@ public class FileServiceImpl implements FileService {
 		if (result < 0) {
 			throw new Exception("등록에 실패하였습니다.");
 		}
+		
 	}
 
 }
