@@ -390,7 +390,3 @@ VALUES
   (700, '팝업'),
   (800, '체험'),
   (900, '기타');
- 
- COMMIT;
-
-SELECT * FROM ach_loca_count;

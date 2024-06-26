@@ -393,4 +393,4 @@ VALUES
  
  COMMIT;
 
-SELECT * FROM ach_loca_count;
+SELECT FROM ach_loca_count 

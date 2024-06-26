@@ -392,5 +392,3 @@ VALUES
   (900, '기타');
  
  COMMIT;
-
-SELECT * FROM ach_loca_count;
